@@ -1,0 +1,65 @@
+{
+ "extends": "templates/core-squat.json",
+ "poses": [
+  {
+   "torso": 352,
+   "head": 352,
+   "arms": [
+    355,
+    345
+   ],
+   "legs": {
+    "near": [
+     170.2,
+     187.4,
+     95
+    ],
+    "far": [
+     170.2,
+     187.4,
+     95
+    ]
+   },
+   "props": [
+    {
+     "chain": -0.38
+    }
+   ]
+  },
+  {
+   "torso": 50,
+   "head": 55,
+   "arms": [
+    135,
+    135
+   ],
+   "legs": {
+    "near": [
+     130.9,
+     200.8,
+     95
+    ],
+    "far": [
+     130.9,
+     200.8,
+     95
+    ]
+   },
+   "props": [
+    {
+     "chain": 0.35
+    }
+   ]
+  }
+ ],
+ "equipment": [
+  {
+   "type": "hanging",
+   "on": [
+    "nearHand"
+   ],
+   "chain": -0.38,
+   "r": 0.07
+  }
+ ]
+}

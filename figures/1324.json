@@ -1,0 +1,41 @@
+{
+ "extends": "templates/back-standing-cable-row.json",
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    1.55,
+    1.35
+   ]
+  },
+  {
+   "type": "bar"
+  }
+ ],
+ "poses": [
+  {
+   "torso": 8,
+   "arms": [
+    86,
+    88
+   ],
+   "legs": [
+    165,
+    195,
+    95
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    262,
+    88
+   ],
+   "legs": [
+    165,
+    195,
+    95
+   ]
+  }
+ ]
+}

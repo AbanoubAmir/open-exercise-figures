@@ -1,0 +1,31 @@
+{
+ "extends": "templates/back-bent-over-row.json",
+ "poses": [
+  {
+   "torso": 86,
+   "head": 75,
+   "arms": [
+    180,
+    180
+   ],
+   "legs": [
+    136,
+    204,
+    95
+   ]
+  },
+  {
+   "torso": 86,
+   "head": 75,
+   "arms": [
+    292,
+    180
+   ],
+   "legs": [
+    136,
+    204,
+    95
+   ]
+  }
+ ]
+}

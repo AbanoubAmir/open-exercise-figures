@@ -1,0 +1,45 @@
+{
+ "extends": "templates/legs-deadlift.json",
+ "equipment": [
+  {
+   "type": "box",
+   "at": [
+    0.12,
+    0
+   ],
+   "w": 0.12,
+   "h": 0.36
+  },
+  {
+   "type": "barbell",
+   "r": 0.15
+  }
+ ],
+ "poses": [
+  {
+   "torso": 53.2,
+   "arms": [
+    180,
+    180
+   ],
+   "legs": [
+    136.4,
+    180.9,
+    95
+   ],
+   "head": 45
+  },
+  {
+   "torso": 0,
+   "arms": [
+    180,
+    180
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  }
+ ]
+}

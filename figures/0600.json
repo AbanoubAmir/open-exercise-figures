@@ -1,0 +1,63 @@
+{
+ "extends": "templates/core-lever-crunch.json",
+ "poses": [
+  {
+   "torso": 355,
+   "head": 355,
+   "arms": [
+    173.9,
+    173.7,
+    180
+   ],
+   "legs": [
+    95,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 348,
+   "head": 358,
+   "arms": [
+    167.8,
+    167.6,
+    180
+   ],
+   "legs": [
+    38,
+    165,
+    120
+   ]
+  }
+ ],
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    0,
+    0.42
+   ],
+   "length": 0.7
+  },
+  {
+   "type": "pad",
+   "at": [
+    -0.15,
+    0.95
+   ],
+   "w": 0.6,
+   "h": 0.08,
+   "angle": 0
+  },
+  {
+   "type": "lever",
+   "from": [
+    0.12,
+    0.62
+   ],
+   "on": [
+    "nearAnkle"
+   ]
+  }
+ ]
+}

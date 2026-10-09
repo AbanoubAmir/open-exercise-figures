@@ -1,0 +1,69 @@
+{
+ "view": "front",
+ "anchor": [
+  "hip",
+  [
+   0,
+   0.64
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "box",
+   "at": [
+    0,
+    0
+   ],
+   "w": 0.5,
+   "h": 0.51
+  },
+  {
+   "type": "band",
+   "from": "farToe",
+   "on": [
+    "nearToe"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    165,
+    175
+   ],
+   "shorten": {
+    "thigh": 0.22,
+    "foot": 1.9
+   },
+   "legs": [
+    168,
+    180,
+    145
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    165,
+    175
+   ],
+   "shorten": {
+    "thigh": 0.22,
+    "foot": 1.9
+   },
+   "legs": {
+    "near": [
+     168,
+     180,
+     95
+    ],
+    "far": [
+     168,
+     180,
+     145
+    ]
+   }
+  }
+ ]
+}

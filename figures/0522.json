@@ -1,0 +1,74 @@
+{
+ "extends": "templates/back-bent-over-row.json",
+ "equipment": [
+  {
+   "type": "kettlebell"
+  }
+ ],
+ "poses": [
+  {
+   "torso": 72,
+   "head": 60,
+   "arms": [
+    180,
+    180
+   ],
+   "legs": [
+    160,
+    192,
+    95
+   ]
+  },
+  {
+   "torso": 72,
+   "head": 60,
+   "arms": {
+    "near": [
+     285,
+     178
+    ],
+    "far": [
+     180,
+     180
+    ]
+   },
+   "legs": [
+    160,
+    192,
+    95
+   ]
+  },
+  {
+   "torso": 72,
+   "head": 60,
+   "arms": [
+    180,
+    180
+   ],
+   "legs": [
+    160,
+    192,
+    95
+   ]
+  },
+  {
+   "torso": 72,
+   "head": 60,
+   "arms": {
+    "near": [
+     180,
+     180
+    ],
+    "far": [
+     285,
+     178
+    ]
+   },
+   "legs": [
+    160,
+    192,
+    95
+   ]
+  }
+ ]
+}

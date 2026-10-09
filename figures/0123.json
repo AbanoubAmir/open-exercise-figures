@@ -1,0 +1,29 @@
+{
+ "extends": "templates/sh-upright-row-front.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    165,
+    178
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    105,
+    340
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  }
+ ]
+}

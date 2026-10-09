@@ -1,0 +1,142 @@
+{
+ "extends": "templates/core-russian-twist.json",
+ "equipment": [
+  {
+   "type": "plate",
+   "on": [
+    "nearHand"
+   ],
+   "r": 0.14
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "head": 0,
+   "shorten": {
+    "thigh": 0.55,
+    "shin": 0.62,
+    "upperArm": 0.8,
+    "forearm": 0.8
+   },
+   "arms": {
+    "near": [
+     180.7,
+     303.4
+    ],
+    "far": [
+     180.7,
+     303.4
+    ]
+   },
+   "legs": {
+    "near": [
+     18,
+     172,
+     140
+    ],
+    "far": [
+     18,
+     172,
+     140
+    ]
+   }
+  },
+  {
+   "torso": 6,
+   "head": 6,
+   "shorten": {
+    "thigh": 0.55,
+    "shin": 0.62,
+    "upperArm": 0.8,
+    "forearm": 0.8
+   },
+   "arms": {
+    "near": [
+     180.9,
+     126.7
+    ],
+    "far": [
+     231.3,
+     231.5
+    ]
+   },
+   "legs": {
+    "near": [
+     18,
+     172,
+     140
+    ],
+    "far": [
+     18,
+     172,
+     140
+    ]
+   }
+  },
+  {
+   "torso": 0,
+   "head": 0,
+   "shorten": {
+    "thigh": 0.55,
+    "shin": 0.62,
+    "upperArm": 0.8,
+    "forearm": 0.8
+   },
+   "arms": {
+    "near": [
+     180.7,
+     303.4
+    ],
+    "far": [
+     180.7,
+     303.4
+    ]
+   },
+   "legs": {
+    "near": [
+     18,
+     172,
+     140
+    ],
+    "far": [
+     18,
+     172,
+     140
+    ]
+   }
+  },
+  {
+   "torso": -6,
+   "head": -6,
+   "shorten": {
+    "thigh": 0.55,
+    "shin": 0.62,
+    "upperArm": 0.8,
+    "forearm": 0.8
+   },
+   "arms": {
+    "near": [
+     231.3,
+     231.5
+    ],
+    "far": [
+     180.9,
+     126.69999999999999
+    ]
+   },
+   "legs": {
+    "near": [
+     18,
+     172,
+     140
+    ],
+    "far": [
+     18,
+     172,
+     140
+    ]
+   }
+  }
+ ]
+}

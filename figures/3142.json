@@ -1,0 +1,22 @@
+{
+ "extends": "templates/legs-wide-squat-front.json",
+ "equipment": [
+  {
+   "type": "rails",
+   "at": [
+    -0.75,
+    0
+   ]
+  },
+  {
+   "type": "rails",
+   "at": [
+    0.75,
+    0
+   ]
+  },
+  {
+   "type": "barbell"
+  }
+ ]
+}

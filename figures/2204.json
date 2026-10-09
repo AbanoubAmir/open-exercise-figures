@@ -1,0 +1,51 @@
+{
+ "extends": "templates/core-rollout.json",
+ "anchor": [
+  "nearToe",
+  [
+   -0.65,
+   0.02
+  ]
+ ],
+ "contact": [
+  "nearElbow",
+  0.17
+ ],
+ "poses": [
+  {
+   "torso": 90,
+   "head": 90,
+   "arms": [
+    195,
+    90,
+    90
+   ],
+   "legs": [
+    270,
+    270,
+    185
+   ]
+  },
+  {
+   "torso": 90,
+   "head": 90,
+   "arms": [
+    135,
+    90,
+    90
+   ],
+   "legs": [
+    270,
+    270,
+    185
+   ]
+  }
+ ],
+ "equipment": [
+  {
+   "type": "roller",
+   "at": "nearWrist",
+   "r": 0.09
+  }
+ ]
+}

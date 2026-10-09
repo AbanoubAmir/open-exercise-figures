@@ -1,0 +1,56 @@
+{
+ "extends": "templates/calf-step-raise.json",
+ "equipment": [
+  {
+   "type": "box",
+   "at": [
+    0.25,
+    0
+   ],
+   "w": 0.44,
+   "h": 0.2
+  },
+  {
+   "type": "rails",
+   "at": [
+    0.42,
+    0
+   ]
+  },
+  {
+   "type": "barbell",
+   "r": 0.15,
+   "on": [
+    "nearWrist"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    145.4,
+    93.1,
+    90
+   ],
+   "legs": [
+    180,
+    180,
+    62
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    142.6,
+    142.4,
+    90
+   ],
+   "legs": [
+    180,
+    180,
+    145
+   ]
+  }
+ ]
+}

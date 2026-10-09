@@ -1,0 +1,28 @@
+{
+ "view": "side",
+ "poses": [
+  {
+   "torso": 0,
+   "head": 0
+  },
+  {
+   "torso": 0,
+   "neck": 25,
+   "head": 60,
+   "arms": [
+    67.0,
+    315.8,
+    100
+   ]
+  },
+  {
+   "torso": 0,
+   "head": 0
+  },
+  {
+   "torso": 0,
+   "neck": -12,
+   "head": -45
+  }
+ ]
+}

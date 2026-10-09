@@ -1,0 +1,17 @@
+{
+ "extends": "templates/core-rollout.json",
+ "equipment": [
+  {
+   "type": "roller",
+   "at": "nearWrist",
+   "r": 0.1
+  },
+  {
+   "type": "band",
+   "from": "nearKnee",
+   "on": [
+    "nearWrist"
+   ]
+  }
+ ]
+}

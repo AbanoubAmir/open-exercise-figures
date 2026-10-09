@@ -1,0 +1,31 @@
+{
+ "extends": "templates/tri-lying-extension.json",
+ "poses": [
+  {
+   "torso": 270,
+   "head": 270,
+   "arms": [
+    0,
+    0
+   ],
+   "legs": [
+    95,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 270,
+   "head": 270,
+   "arms": [
+    335,
+    205
+   ],
+   "legs": [
+    95,
+    180,
+    95
+   ]
+  }
+ ]
+}

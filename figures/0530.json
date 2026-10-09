@@ -1,0 +1,12 @@
+{
+ "extends": "templates/core-windmill.json",
+ "equipment": [
+  {
+   "type": "kettlebell",
+   "on": [
+    "nearHand",
+    "farHand"
+   ]
+  }
+ ]
+}

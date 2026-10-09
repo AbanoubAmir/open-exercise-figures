@@ -1,0 +1,12 @@
+{
+ "extends": "templates/sh-front-raise-side.json",
+ "equipment": [
+  {
+   "type": "band",
+   "from": "nearToe",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ]
+}

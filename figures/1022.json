@@ -1,0 +1,12 @@
+{
+ "extends": "templates/sh-bent-rear-row.json",
+ "equipment": [
+  {
+   "type": "band",
+   "from": "nearToe",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ]
+}

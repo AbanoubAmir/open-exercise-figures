@@ -1,0 +1,47 @@
+{
+ "extends": "templates/sh-seat-press-front.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": {
+    "near": [
+     12,
+     4
+    ],
+    "far": [
+     100,
+     8
+    ]
+   },
+   "legs": [
+    172,
+    180,
+    120
+   ],
+   "shorten": {
+    "thigh": 0.15
+   }
+  },
+  {
+   "torso": 0,
+   "arms": {
+    "near": [
+     100,
+     8
+    ],
+    "far": [
+     12,
+     4
+    ]
+   },
+   "legs": [
+    172,
+    180,
+    120
+   ],
+   "shorten": {
+    "thigh": 0.15
+   }
+  }
+ ]
+}

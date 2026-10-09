@@ -1,0 +1,38 @@
+{
+ "extends": "templates/chest-floor-press.json",
+ "equipment": [
+  {
+   "type": "barbell",
+   "r": 0.12
+  }
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "arms": [
+    2,
+    0
+   ],
+   "legs": [
+    35,
+    152,
+    95
+   ]
+  },
+  {
+   "torso": 270,
+   "arms": [
+    100,
+    2
+   ],
+   "legs": [
+    35,
+    152,
+    95
+   ],
+   "shorten": {
+    "upperArm": 0.45
+   }
+  }
+ ]
+}

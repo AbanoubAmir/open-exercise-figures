@@ -1,0 +1,74 @@
+{
+ "extends": "templates/core-leg-raise.json",
+ "equipment": [
+  {
+   "type": "barbell",
+   "on": [
+    "nearHand"
+   ],
+   "r": 0.15
+  }
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "head": 275,
+   "arms": [
+    0,
+    0
+   ],
+   "legs": [
+    0,
+    90,
+    60
+   ]
+  },
+  {
+   "torso": 270,
+   "head": 275,
+   "shorten": {
+    "thigh": 0.7,
+    "shin": 0.85
+   },
+   "arms": [
+    0,
+    0
+   ],
+   "legs": [
+    35,
+    115,
+    85
+   ]
+  },
+  {
+   "torso": 270,
+   "head": 275,
+   "arms": [
+    0,
+    0
+   ],
+   "legs": [
+    0,
+    90,
+    60
+   ]
+  },
+  {
+   "torso": 270,
+   "head": 275,
+   "shorten": {
+    "thigh": 0.7,
+    "shin": 0.85
+   },
+   "arms": [
+    0,
+    0
+   ],
+   "legs": [
+    35,
+    115,
+    85
+   ]
+  }
+ ]
+}

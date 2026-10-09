@@ -1,0 +1,47 @@
+{
+ "extends": "templates/core-cable-standing-crunch.json",
+ "equipment": [
+  {
+   "type": "band",
+   "from": "shoulder",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "head": 5,
+   "arms": [
+    160,
+    10
+   ],
+   "legs": [
+    178,
+    186,
+    95
+   ]
+  },
+  {
+   "torso": 38,
+   "head": 53,
+   "arms": [
+    158,
+    58
+   ],
+   "legs": {
+    "near": [
+     178,
+     186,
+     95
+    ],
+    "far": [
+     100,
+     185,
+     110
+    ]
+   }
+  }
+ ]
+}

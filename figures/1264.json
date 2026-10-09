@@ -1,0 +1,77 @@
+{
+ "extends": "templates/chest-incline-fly.json",
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    0.14,
+    0.3
+   ],
+   "r": 0.3
+  },
+  {
+   "type": "bench",
+   "at": [
+    -0.143,
+    0.701
+   ],
+   "length": 0.8,
+   "angle": 135
+  },
+  {
+   "type": "cable",
+   "from": [
+    -0.15,
+    0.05
+   ]
+  },
+  {
+   "type": "handle",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 315,
+   "arms": {
+    "near": [
+     24,
+     22
+    ],
+    "far": [
+     130,
+     100
+    ]
+   },
+   "legs": [
+    105,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 315,
+   "arms": {
+    "near": [
+     222,
+     228
+    ],
+    "far": [
+     130,
+     100
+    ]
+   },
+   "legs": [
+    105,
+    180,
+    95
+   ],
+   "shorten": {
+    "upperArm": 0.35,
+    "forearm": 0.35
+   }
+  }
+ ]
+}

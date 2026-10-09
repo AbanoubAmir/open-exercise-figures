@@ -1,0 +1,39 @@
+{
+ "view": "side",
+ "equipment": [
+  {
+   "type": "barbell",
+   "on": [
+    "neckTop"
+   ],
+   "r": 0.15
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    90,
+    90
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 15,
+   "arms": [
+    90,
+    90
+   ],
+   "legs": [
+    100,
+    218,
+    95
+   ],
+   "head": 0
+  }
+ ]
+}

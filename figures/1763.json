@@ -1,0 +1,36 @@
+{
+ "extends": "templates/back-pull-up.json",
+ "anchor": [
+  "nearWrist",
+  [
+   0.27,
+   2.3
+  ]
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    13.3,
+    7.1
+   ],
+   "legs": [
+    178,
+    184,
+    140
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    101.0,
+    308.9
+   ],
+   "legs": [
+    176,
+    186,
+    140
+   ]
+  }
+ ]
+}

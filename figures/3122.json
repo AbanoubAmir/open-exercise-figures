@@ -1,0 +1,34 @@
+{
+ "extends": "templates/sh-seat-press-front.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    0,
+    0.4
+   ],
+   "length": 0.5,
+   "angle": 90
+  },
+  {
+   "type": "band",
+   "from": [
+    0.22,
+    0.42
+   ],
+   "on": [
+    "nearHand"
+   ]
+  },
+  {
+   "type": "band",
+   "from": [
+    -0.22,
+    0.42
+   ],
+   "on": [
+    "farHand"
+   ]
+  }
+ ]
+}

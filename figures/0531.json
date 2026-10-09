@@ -1,0 +1,44 @@
+{
+ "extends": "templates/chest-floor-press.json",
+ "poses": [
+  {
+   "torso": 270,
+   "arms": {
+    "near": [
+     106,
+     355
+    ],
+    "far": [
+     95,
+     92
+    ]
+   },
+   "legs": [
+    35,
+    152,
+    95
+   ],
+   "shorten": {
+    "upperArm": 0.72
+   }
+  },
+  {
+   "torso": 270,
+   "arms": {
+    "near": [
+     2,
+     0
+    ],
+    "far": [
+     95,
+     92
+    ]
+   },
+   "legs": [
+    35,
+    152,
+    95
+   ]
+  }
+ ]
+}

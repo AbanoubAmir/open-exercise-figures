@@ -1,0 +1,46 @@
+{
+ "extends": "templates/back-bent-over-row.json",
+ "equipment": [
+  {
+   "type": "rails",
+   "at": [
+    0.433,
+    0
+   ],
+   "h": 1.8
+  },
+  {
+   "type": "barbell",
+   "r": 0.15
+  }
+ ],
+ "poses": [
+  {
+   "torso": 72,
+   "head": 60,
+   "arms": [
+    180,
+    180
+   ],
+   "legs": [
+    160,
+    192,
+    95
+   ]
+  },
+  {
+   "torso": 72,
+   "head": 60,
+   "arms": [
+    233.2,
+    106.4,
+    180
+   ],
+   "legs": [
+    160,
+    192,
+    95
+   ]
+  }
+ ]
+}

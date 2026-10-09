@@ -1,0 +1,20 @@
+{
+ "extends": "templates/back-chin-up.json",
+ "equipment": [
+  {
+   "type": "pullupBar",
+   "at": [
+    0.05,
+    2.3
+   ]
+  },
+  {
+   "type": "hanging",
+   "on": [
+    "hip"
+   ],
+   "chain": 0.35,
+   "r": 0.09
+  }
+ ]
+}

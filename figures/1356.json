@@ -1,0 +1,42 @@
+{
+ "extends": "templates/back-lever-seated-row.json",
+ "poses": [
+  {
+   "torso": 8,
+   "head": 5,
+   "arms": {
+    "near": [
+     85,
+     88
+    ],
+    "far": [
+     150,
+     95
+    ]
+   },
+   "legs": [
+    92,
+    185,
+    95
+   ]
+  },
+  {
+   "torso": 2,
+   "arms": {
+    "near": [
+     215,
+     92
+    ],
+    "far": [
+     150,
+     95
+    ]
+   },
+   "legs": [
+    92,
+    185,
+    95
+   ]
+  }
+ ]
+}

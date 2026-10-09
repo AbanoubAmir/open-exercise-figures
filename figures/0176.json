@@ -1,0 +1,50 @@
+{
+ "extends": "templates/tri-cable-overhead-extension.json",
+ "anchor": [
+  "nearKnee",
+  [
+   0,
+   0.07
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    -0.6,
+    1.75
+   ]
+  },
+  {
+   "type": "handle"
+  }
+ ],
+ "poses": [
+  {
+   "torso": 30,
+   "head": 15,
+   "arms": [
+    40,
+    260
+   ],
+   "legs": [
+    175,
+    268,
+    262
+   ]
+  },
+  {
+   "torso": 30,
+   "head": 15,
+   "arms": [
+    45,
+    45
+   ],
+   "legs": [
+    175,
+    268,
+    262
+   ]
+  }
+ ]
+}

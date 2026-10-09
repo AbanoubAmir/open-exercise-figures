@@ -1,0 +1,60 @@
+{
+ "extends": "templates/sh-prone-rear-fly.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    0.0,
+    0.5
+   ],
+   "length": 1.0,
+   "angle": 90
+  },
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 90,
+   "head": 100,
+   "legs": [
+    240,
+    220,
+    185
+   ],
+   "arms": {
+    "near": [
+     180,
+     178
+    ],
+    "far": [
+     180,
+     178
+    ]
+   }
+  },
+  {
+   "torso": 90,
+   "head": 100,
+   "legs": [
+    240,
+    220,
+    185
+   ],
+   "arms": {
+    "near": [
+     255,
+     252
+    ],
+    "far": [
+     180,
+     178
+    ]
+   }
+  }
+ ]
+}

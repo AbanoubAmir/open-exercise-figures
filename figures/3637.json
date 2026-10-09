@@ -1,0 +1,51 @@
+{
+ "view": "side",
+ "anchor": [
+  "nearToe",
+  [
+   -0.55,
+   0.03
+  ]
+ ],
+ "contact": [
+  "nearWrist",
+  0.08
+ ],
+ "equipment": [
+  {
+   "type": "roller",
+   "at": "nearWrist",
+   "r": 0.08
+  }
+ ],
+ "poses": [
+  {
+   "torso": 70,
+   "head": 78,
+   "arms": [
+    182,
+    182,
+    90
+   ],
+   "legs": [
+    250,
+    250,
+    165
+   ]
+  },
+  {
+   "torso": 83,
+   "head": 86,
+   "arms": [
+    98,
+    96,
+    90
+   ],
+   "legs": [
+    263,
+    263,
+    172
+   ]
+  }
+ ]
+}

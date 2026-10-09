@@ -1,0 +1,50 @@
+{
+ "extends": "templates/core-squat.json",
+ "anchor": [
+  "nearToe",
+  [
+   0,
+   0.02
+  ]
+ ],
+ "poses": [
+  {
+   "torso": 12,
+   "head": 12,
+   "arms": [
+    95,
+    95
+   ],
+   "legs": [
+    192,
+    192,
+    107
+   ]
+  },
+  {
+   "torso": 48,
+   "head": 48,
+   "arms": [
+    25,
+    25
+   ],
+   "legs": [
+    228,
+    228,
+    143
+   ]
+  }
+ ],
+ "equipment": [
+  {
+   "type": "rope",
+   "from": [
+    0.1,
+    2.5
+   ],
+   "on": [
+    "nearHand"
+   ]
+  }
+ ]
+}

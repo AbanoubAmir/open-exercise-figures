@@ -1,0 +1,33 @@
+{
+ "extends": "templates/core-hip-raise.json",
+ "poses": [
+  {
+   "torso": 270,
+   "head": 270,
+   "arms": [
+    92,
+    92,
+    90
+   ],
+   "legs": [
+    36.9,
+    149.9,
+    95
+   ]
+  },
+  {
+   "torso": 262,
+   "head": 270,
+   "arms": [
+    92,
+    92,
+    90
+   ],
+   "legs": [
+    46.3,
+    157.2,
+    95
+   ]
+  }
+ ]
+}

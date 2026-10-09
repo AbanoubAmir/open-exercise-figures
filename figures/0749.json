@@ -1,0 +1,48 @@
+{
+ "extends": "templates/legs-good-morning.json",
+ "equipment": [
+  {
+   "type": "rails",
+   "at": [
+    -0.075,
+    0
+   ]
+  },
+  {
+   "type": "barbell",
+   "on": [
+    "nearWrist"
+   ],
+   "r": 0.15
+  }
+ ],
+ "poses": [
+  {
+   "torso": 3,
+   "arms": [
+    215,
+    15,
+    15
+   ],
+   "legs": [
+    178,
+    182,
+    95
+   ]
+  },
+  {
+   "torso": 75,
+   "arms": [
+    290,
+    70,
+    70
+   ],
+   "legs": [
+    114.8,
+    163.0,
+    95
+   ],
+   "head": 65
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "extends": "templates/legs-prone-leg-curl.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    0.45,
+    0.415
+   ],
+   "length": 1.0
+  }
+ ],
+ "poses": [
+  {
+   "torso": 90,
+   "arms": [
+    100,
+    160,
+    160
+   ],
+   "legs": [
+    265,
+    265,
+    180
+   ],
+   "head": 95
+  },
+  {
+   "torso": 90,
+   "arms": [
+    100,
+    160,
+    160
+   ],
+   "legs": [
+    265,
+    10,
+    280
+   ],
+   "head": 95
+  }
+ ]
+}

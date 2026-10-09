@@ -1,0 +1,43 @@
+{
+ "extends": "templates/chest-push-up.json",
+ "equipment": [
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearWrist",
+    "farWrist"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 71.6,
+   "legs": [
+    251.6446412626784,
+    251.6446412626784,
+    185
+   ],
+   "arms": [
+    172.7,
+    178.1,
+    180
+   ]
+  },
+  {
+   "torso": 90.8,
+   "legs": [
+    270.79776021821897,
+    270.79776021821897,
+    185
+   ],
+   "arms": [
+    289.7,
+    131.5,
+    180
+   ],
+   "shorten": {
+    "upperArm": 0.75
+   }
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "extends": "templates/core-hanging-knee-raise.json",
+ "poses": [
+  {
+   "torso": -6,
+   "head": -6,
+   "arms": [
+    4,
+    4
+   ],
+   "legs": [
+    90,
+    180,
+    140
+   ]
+  },
+  {
+   "torso": -16,
+   "head": -16,
+   "arms": [
+    14,
+    14
+   ],
+   "legs": [
+    25,
+    160,
+    125
+   ]
+  }
+ ]
+}

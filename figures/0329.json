@@ -1,0 +1,65 @@
+{
+ "view": "side",
+ "anchor": [
+  "hip",
+  [
+   0,
+   0.58
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.05,
+    0.4
+   ],
+   "length": 0.55,
+   "angle": 90
+  },
+  {
+   "type": "bench",
+   "at": [
+    -0.28,
+    0.74
+   ],
+   "length": 0.8,
+   "angle": 332
+  },
+  {
+   "type": "dumbbell"
+  }
+ ],
+ "poses": [
+  {
+   "torso": -28,
+   "head": -10,
+   "arms": [
+    180,
+    180
+   ],
+   "legs": [
+    88,
+    192,
+    95
+   ]
+  },
+  {
+   "torso": -28,
+   "head": -10,
+   "arms": [
+    180,
+    180
+   ],
+   "legs": [
+    88,
+    192,
+    95
+   ],
+   "shorten": {
+    "torso": 1.18,
+    "neck": 0.1
+   }
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "extends": "templates/sh-bar-press-side.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    140,
+    15
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    6,
+    3
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  }
+ ]
+}

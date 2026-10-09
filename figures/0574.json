@@ -1,0 +1,16 @@
+{
+ "extends": "templates/back-bent-over-row.json",
+ "equipment": [
+  {
+   "type": "lever",
+   "from": [
+    -0.9,
+    0.04
+   ]
+  },
+  {
+   "type": "barbell",
+   "r": 0.15
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "extends": "templates/legs-glute-bridge.json",
+ "equipment": [
+  {
+   "type": "barbell",
+   "on": [
+    "hip"
+   ],
+   "r": 0.2
+  }
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "arms": [
+    60,
+    140,
+    140
+   ],
+   "legs": [
+    40,
+    150,
+    95
+   ],
+   "head": 270
+  },
+  {
+   "torso": 250,
+   "arms": [
+    60,
+    135,
+    135
+   ],
+   "legs": [
+    72,
+    168,
+    95
+   ],
+   "head": 265
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "extends": "templates/tri-lying-extension.json",
+ "anchor": [
+  "hip",
+  [
+   0,
+   0.11
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    -1.35,
+    0.12
+   ]
+  },
+  {
+   "type": "handle"
+  }
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "head": 270,
+   "arms": [
+    0,
+    0
+   ],
+   "legs": [
+    40,
+    150,
+    95
+   ]
+  },
+  {
+   "torso": 270,
+   "head": 270,
+   "arms": [
+    352,
+    238
+   ],
+   "legs": [
+    40,
+    150,
+    95
+   ]
+  }
+ ]
+}

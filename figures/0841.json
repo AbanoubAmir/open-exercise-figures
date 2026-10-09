@@ -1,0 +1,46 @@
+{
+ "extends": "templates/back-pull-up.json",
+ "equipment": [
+  {
+   "type": "pullupBar",
+   "at": [
+    0,
+    2.3
+   ]
+  },
+  {
+   "type": "hanging",
+   "on": [
+    "hip"
+   ],
+   "chain": 0.5,
+   "r": 0.075
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    25.4,
+    25.1
+   ],
+   "legs": [
+    168,
+    182,
+    140
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    115.5,
+    355.2
+   ],
+   "legs": [
+    168,
+    182,
+    140
+   ]
+  }
+ ]
+}

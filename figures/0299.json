@@ -1,0 +1,41 @@
+{
+ "extends": "templates/sh-press-front.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    95,
+    175
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    95,
+    5
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    12,
+    4
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  }
+ ]
+}

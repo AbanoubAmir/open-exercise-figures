@@ -1,0 +1,38 @@
+{
+ "extends": "templates/core-reverse-crunch.json",
+ "equipment": [
+  {
+   "type": "roller",
+   "at": "nearAnkle",
+   "r": 0.1
+  }
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "head": 270,
+   "arms": [
+    270,
+    270
+   ],
+   "legs": [
+    92,
+    92,
+    60
+   ]
+  },
+  {
+   "torso": 252,
+   "head": 270,
+   "arms": [
+    270,
+    270
+   ],
+   "legs": [
+    340,
+    100,
+    70
+   ]
+  }
+ ]
+}

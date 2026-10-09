@@ -1,0 +1,12 @@
+{
+ "extends": "templates/core-bicycle.json",
+ "equipment": [
+  {
+   "type": "band",
+   "from": "farToe",
+   "on": [
+    "nearToe"
+   ]
+  }
+ ]
+}

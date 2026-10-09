@@ -1,0 +1,42 @@
+{
+ "extends": "templates/core-rollout.json",
+ "poses": [
+  {
+   "torso": 54.9,
+   "head": 64.9,
+   "arms": [
+    180.0,
+    180.0,
+    180.0
+   ],
+   "legs": [
+    150,
+    270,
+    250
+   ]
+  },
+  {
+   "torso": 70,
+   "head": 80,
+   "arms": [
+    111.2,
+    111.2,
+    111.2
+   ],
+   "legs": [
+    250,
+    270,
+    250
+   ]
+  }
+ ],
+ "equipment": [
+  {
+   "type": "barbell",
+   "on": [
+    "nearWrist"
+   ],
+   "r": 0.21
+  }
+ ]
+}

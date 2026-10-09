@@ -1,0 +1,52 @@
+{
+ "extends": "templates/chest-floor-press.json",
+ "equipment": [
+  {
+   "type": "kettlebell"
+  }
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "arms": {
+    "near": [
+     2,
+     0
+    ],
+    "far": [
+     106,
+     355
+    ]
+   },
+   "legs": [
+    35,
+    152,
+    95
+   ],
+   "shorten": {
+    "upperArm": 0.72
+   }
+  },
+  {
+   "torso": 270,
+   "arms": {
+    "near": [
+     106,
+     355
+    ],
+    "far": [
+     2,
+     0
+    ]
+   },
+   "legs": [
+    35,
+    152,
+    95
+   ],
+   "shorten": {
+    "upperArm": 0.72
+   }
+  }
+ ]
+}

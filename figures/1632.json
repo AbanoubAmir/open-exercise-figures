@@ -1,0 +1,15 @@
+{
+ "extends": "templates/bi-drag-curl.json",
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    0.5,
+    0.12
+   ]
+  },
+  {
+   "type": "bar"
+  }
+ ]
+}

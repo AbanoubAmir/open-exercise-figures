@@ -1,0 +1,29 @@
+{
+ "extends": "templates/sh-lever-press.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    140,
+    12
+   ],
+   "legs": [
+    92,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    6,
+    4
+   ],
+   "legs": [
+    92,
+    180,
+    95
+   ]
+  }
+ ]
+}

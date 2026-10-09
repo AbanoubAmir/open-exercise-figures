@@ -1,0 +1,49 @@
+{
+ "extends": "templates/core-captains-chair.json",
+ "poses": [
+  {
+   "torso": 0,
+   "head": 0,
+   "arms": [
+    180,
+    180,
+    90
+   ],
+   "legs": [
+    180,
+    180,
+    150
+   ]
+  },
+  {
+   "torso": 350,
+   "head": 350,
+   "arms": [
+    180,
+    180,
+    90
+   ],
+   "legs": [
+    88,
+    88,
+    60
+   ]
+  }
+ ],
+ "anchor": [
+  "nearWrist",
+  [
+   0.02,
+   1.25
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "parallelBars",
+   "at": [
+    0.02,
+    1.25
+   ]
+  }
+ ]
+}

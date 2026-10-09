@@ -1,0 +1,26 @@
+{
+ "extends": "templates/tri-incline-extension.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.342,
+    0.646
+   ],
+   "length": 0.8,
+   "angle": 138
+  },
+  {
+   "type": "bench",
+   "at": [
+    0.08,
+    0.39
+   ],
+   "length": 0.5,
+   "angle": 90
+  },
+  {
+   "type": "dumbbell"
+  }
+ ]
+}

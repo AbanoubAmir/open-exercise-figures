@@ -1,0 +1,33 @@
+{
+ "extends": "templates/core-ball-crunch.json",
+ "poses": [
+  {
+   "torso": 250,
+   "head": 250,
+   "arms": [
+    280,
+    145,
+    250
+   ],
+   "legs": [
+    136.3,
+    136.5,
+    95
+   ]
+  },
+  {
+   "torso": 330,
+   "head": 355,
+   "arms": [
+    0,
+    225,
+    330
+   ],
+   "legs": [
+    136.3,
+    136.5,
+    95
+   ]
+  }
+ ]
+}

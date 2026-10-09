@@ -1,0 +1,58 @@
+{
+ "extends": "templates/core-flag.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    4,
+    4
+   ],
+   "legs": [
+    150,
+    150,
+    150
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    96,
+    96
+   ],
+   "legs": [
+    150,
+    150,
+    150
+   ]
+  }
+ ],
+ "anchor": [
+  "hip",
+  [
+   0.0,
+   1.15
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "rope",
+   "from": [
+    0.32,
+    2.6
+   ],
+   "on": [
+    "nearHand"
+   ]
+  },
+  {
+   "type": "rope",
+   "from": [
+    -0.32,
+    2.6
+   ],
+   "on": [
+    "farHand"
+   ]
+  }
+ ]
+}

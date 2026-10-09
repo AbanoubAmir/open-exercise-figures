@@ -1,0 +1,15 @@
+{
+ "view": "side",
+ "poses": [
+  {
+   "torso": 0,
+   "neck": 18,
+   "head": 0
+  },
+  {
+   "torso": 0,
+   "neck": -14,
+   "head": 4
+  }
+ ]
+}

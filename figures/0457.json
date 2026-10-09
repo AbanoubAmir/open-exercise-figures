@@ -1,0 +1,31 @@
+{
+ "extends": "templates/core-v-up.json",
+ "poses": [
+  {
+   "torso": 270,
+   "head": 280,
+   "arms": [
+    268,
+    268
+   ],
+   "legs": [
+    92,
+    92,
+    60
+   ]
+  },
+  {
+   "torso": 318,
+   "head": 343,
+   "arms": [
+    70,
+    70
+   ],
+   "legs": [
+    20,
+    95,
+    60
+   ]
+  }
+ ]
+}

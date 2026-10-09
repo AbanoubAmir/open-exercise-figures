@@ -1,0 +1,41 @@
+{
+ "extends": "templates/legs-sissy-squat.json",
+ "equipment": [
+  {
+   "type": "plate",
+   "on": [
+    "nearWrist"
+   ],
+   "r": 0.14
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    165,
+    20,
+    20
+   ],
+   "legs": [
+    180,
+    180,
+    100
+   ]
+  },
+  {
+   "torso": 345,
+   "arms": [
+    155,
+    5,
+    5
+   ],
+   "legs": [
+    125,
+    240,
+    140
+   ],
+   "head": 355
+  }
+ ]
+}

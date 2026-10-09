@@ -1,0 +1,15 @@
+{
+ "extends": "templates/cable-triceps-pushdown.json",
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    0.45,
+    2.15
+   ]
+  },
+  {
+   "type": "bar"
+  }
+ ]
+}

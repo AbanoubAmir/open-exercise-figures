@@ -1,0 +1,71 @@
+{
+ "anchor": [
+  "hip",
+  [
+   0,
+   0.52
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.15,
+    0.36
+   ],
+   "length": 0.7,
+   "angle": 90
+  },
+  {
+   "type": "bench",
+   "at": [
+    -0.322,
+    0.675
+   ],
+   "length": 0.95,
+   "angle": -35
+  },
+  {
+   "type": "cable",
+   "from": [
+    0.95,
+    0.12
+   ],
+   "on": [
+    "nearHand"
+   ]
+  },
+  {
+   "type": "handle"
+  }
+ ],
+ "poses": [
+  {
+   "torso": -35,
+   "arms": [
+    175,
+    160
+   ],
+   "legs": [
+    92,
+    180,
+    95
+   ],
+   "head": -15
+  },
+  {
+   "torso": -35,
+   "arms": [
+    175,
+    30
+   ],
+   "legs": [
+    92,
+    180,
+    95
+   ],
+   "head": -15
+  }
+ ],
+ "view": "side"
+}

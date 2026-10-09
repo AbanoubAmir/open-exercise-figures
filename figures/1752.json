@@ -1,0 +1,62 @@
+{
+ "extends": "templates/tri-incline-extension.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.342,
+    0.646
+   ],
+   "length": 0.8,
+   "angle": 138
+  },
+  {
+   "type": "bench",
+   "at": [
+    0.08,
+    0.39
+   ],
+   "length": 0.5,
+   "angle": 90
+  },
+  {
+   "type": "rails",
+   "at": [
+    0.12,
+    0
+   ]
+  },
+  {
+   "type": "barbell",
+   "r": 0.15
+  }
+ ],
+ "poses": [
+  {
+   "torso": 318,
+   "head": 330,
+   "arms": [
+    10,
+    10
+   ],
+   "legs": [
+    96,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 318,
+   "head": 330,
+   "arms": [
+    5,
+    255
+   ],
+   "legs": [
+    96,
+    180,
+    95
+   ]
+  }
+ ]
+}

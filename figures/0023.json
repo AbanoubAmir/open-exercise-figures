@@ -1,0 +1,13 @@
+{
+ "extends": "templates/bi-standing-alternate-curl.json",
+ "equipment": [
+  {
+   "type": "barbell",
+   "r": 0.12,
+   "on": [
+    "nearHand",
+    "farHand"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "view": "side",
+ "anchor": [
+  "nearKnee",
+  [
+   0,
+   0.07
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "barbell",
+   "on": [
+    "nearWrist"
+   ],
+   "r": 0.16
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    215,
+    15,
+    15
+   ],
+   "legs": [
+    180,
+    270,
+    265
+   ]
+  },
+  {
+   "torso": 25,
+   "arms": [
+    228,
+    25,
+    25
+   ],
+   "legs": [
+    125,
+    270,
+    265
+   ],
+   "head": 10
+  }
+ ]
+}

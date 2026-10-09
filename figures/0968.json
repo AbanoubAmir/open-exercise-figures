@@ -1,0 +1,16 @@
+{
+ "extends": "templates/bi-standing-alternate-curl.json",
+ "equipment": [
+  {
+   "type": "band",
+   "from": [
+    0.04,
+    0.02
+   ],
+   "on": [
+    "nearHand",
+    "farHand"
+   ]
+  }
+ ]
+}

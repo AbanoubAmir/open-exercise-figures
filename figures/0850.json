@@ -1,0 +1,86 @@
+{
+ "extends": "templates/core-side-bend.json",
+ "poses": [
+  {
+   "torso": -6,
+   "head": -6,
+   "shorten": {
+    "thigh": 0.42
+   },
+   "arms": {
+    "near": [
+     180,
+     180
+    ],
+    "far": [
+     210,
+     330
+    ]
+   },
+   "legs": {
+    "near": [
+     168,
+     175,
+     120
+    ],
+    "far": [
+     168,
+     175,
+     120
+    ]
+   }
+  },
+  {
+   "torso": 24,
+   "head": 24,
+   "shorten": {
+    "thigh": 0.42
+   },
+   "arms": {
+    "near": [
+     192,
+     186
+    ],
+    "far": [
+     235,
+     345
+    ]
+   },
+   "legs": {
+    "near": [
+     168,
+     175,
+     120
+    ],
+    "far": [
+     168,
+     175,
+     120
+    ]
+   }
+  }
+ ],
+ "anchor": [
+  "hip",
+  [
+   0.0,
+   0.74
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    0,
+    0.33
+   ],
+   "r": 0.33
+  },
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ]
+}

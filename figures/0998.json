@@ -1,0 +1,45 @@
+{
+ "view": "front",
+ "anchor": [
+  "hip",
+  [
+   0,
+   0.97
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "band",
+   "from": "farHand",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    90,
+    90
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    90,
+    345
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "extends": "templates/core-ball-crunch.json",
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    0,
+    0.33
+   ],
+   "r": 0.33
+  },
+  {
+   "type": "plate",
+   "on": [
+    "nearHand"
+   ],
+   "r": 0.13
+  }
+ ],
+ "poses": [
+  {
+   "torso": 262,
+   "head": 267,
+   "arms": [
+    262,
+    262
+   ],
+   "legs": [
+    136.3,
+    136.5,
+    95
+   ]
+  },
+  {
+   "torso": 318,
+   "head": 343,
+   "arms": [
+    303,
+    303
+   ],
+   "legs": [
+    136.3,
+    136.5,
+    95
+   ]
+  }
+ ]
+}

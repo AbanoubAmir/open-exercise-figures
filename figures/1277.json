@@ -1,0 +1,33 @@
+{
+ "extends": "templates/chest-ball-press.json",
+ "poses": [
+  {
+   "torso": 280,
+   "arms": [
+    10,
+    10
+   ],
+   "legs": [
+    110,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 280,
+   "arms": [
+    188,
+    194
+   ],
+   "legs": [
+    110,
+    180,
+    95
+   ],
+   "shorten": {
+    "upperArm": 0.35,
+    "forearm": 0.35
+   }
+  }
+ ]
+}

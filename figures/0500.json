@@ -1,0 +1,48 @@
+{
+ "view": "side",
+ "anchor": [
+  "hip",
+  [
+   0.2,
+   0.12
+  ]
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "arms": [
+    180,
+    180
+   ],
+   "legs": [
+    2,
+    2,
+    95
+   ],
+   "shorten": {
+    "upperArm": 0.12,
+    "forearm": 0.12,
+    "hand": 0.3
+   }
+  },
+  {
+   "torso": 270,
+   "arms": [
+    180,
+    180
+   ],
+   "legs": [
+    28,
+    32,
+    120
+   ],
+   "shorten": {
+    "upperArm": 0.12,
+    "forearm": 0.12,
+    "hand": 0.3,
+    "thigh": 0.5,
+    "shin": 0.45
+   }
+  }
+ ]
+}

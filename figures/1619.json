@@ -1,0 +1,69 @@
+{
+ "extends": "templates/tri-incline-press.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.342,
+    0.646
+   ],
+   "length": 0.8,
+   "angle": 138
+  },
+  {
+   "type": "bench",
+   "at": [
+    0.08,
+    0.39
+   ],
+   "length": 0.5,
+   "angle": 90
+  },
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 318,
+   "head": 330,
+   "arms": {
+    "near": [
+     5,
+     5
+    ],
+    "far": [
+     150,
+     150
+    ]
+   },
+   "legs": [
+    96,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 318,
+   "head": 330,
+   "arms": {
+    "near": [
+     205,
+     25
+    ],
+    "far": [
+     150,
+     150
+    ]
+   },
+   "legs": [
+    96,
+    180,
+    95
+   ]
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "extends": "templates/chest-ball-press.json",
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    -0.236,
+    0.299
+   ],
+   "r": 0.3
+  },
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 280,
+   "arms": {
+    "near": [
+     110,
+     5
+    ],
+    "far": [
+     100,
+     95
+    ]
+   },
+   "legs": [
+    110,
+    180,
+    95
+   ],
+   "shorten": {
+    "upperArm": 0.72
+   }
+  },
+  {
+   "torso": 280,
+   "arms": {
+    "near": [
+     10,
+     8
+    ],
+    "far": [
+     100,
+     95
+    ]
+   },
+   "legs": [
+    110,
+    180,
+    95
+   ]
+  }
+ ]
+}

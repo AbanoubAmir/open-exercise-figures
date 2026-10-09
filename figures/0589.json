@@ -1,0 +1,56 @@
+{
+ "extends": "templates/back-bent-over-row.json",
+ "equipment": [
+  {
+   "type": "lever",
+   "from": [
+    -0.9,
+    0.04
+   ]
+  },
+  {
+   "type": "barbell",
+   "r": 0.15
+  }
+ ],
+ "poses": [
+  {
+   "torso": 72,
+   "head": 60,
+   "arms": {
+    "near": [
+     180,
+     180
+    ],
+    "far": [
+     150,
+     115
+    ]
+   },
+   "legs": [
+    160,
+    192,
+    95
+   ]
+  },
+  {
+   "torso": 72,
+   "head": 60,
+   "arms": {
+    "near": [
+     285,
+     178
+    ],
+    "far": [
+     150,
+     115
+    ]
+   },
+   "legs": [
+    160,
+    192,
+    95
+   ]
+  }
+ ]
+}

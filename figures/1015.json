@@ -1,0 +1,51 @@
+{
+ "extends": "templates/core-pallof-press.json",
+ "poses": [
+  {
+   "torso": 0,
+   "head": 0,
+   "shorten": {
+    "upperArm": 1.0,
+    "forearm": 1.0
+   },
+   "arms": {
+    "near": [
+     169.0,
+     294.7
+    ],
+    "far": [
+     169.0,
+     294.7
+    ]
+   },
+   "legs": [
+    175,
+    175,
+    120
+   ]
+  },
+  {
+   "torso": 0,
+   "head": 0,
+   "shorten": {
+    "upperArm": 1.0,
+    "forearm": 1.0
+   },
+   "arms": {
+    "near": [
+     330.4,
+     354.9
+    ],
+    "far": [
+     330.4,
+     354.9
+    ]
+   },
+   "legs": [
+    175,
+    175,
+    120
+   ]
+  }
+ ]
+}

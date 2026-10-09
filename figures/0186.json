@@ -1,0 +1,24 @@
+{
+ "extends": "templates/tri-lying-extension.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.25,
+    0.36
+   ],
+   "length": 1.2,
+   "angle": 90
+  },
+  {
+   "type": "cable",
+   "from": [
+    -1.25,
+    0.15
+   ]
+  },
+  {
+   "type": "handle"
+  }
+ ]
+}

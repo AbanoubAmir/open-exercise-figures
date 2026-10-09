@@ -1,0 +1,12 @@
+{
+ "extends": "templates/legs-glute-bridge.json",
+ "equipment": [
+  {
+   "type": "band",
+   "from": "farKnee",
+   "on": [
+    "nearKnee"
+   ]
+  }
+ ]
+}

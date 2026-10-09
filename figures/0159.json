@@ -1,0 +1,34 @@
+{
+ "extends": "templates/back-seated-cable-row.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.1,
+    0.34
+   ],
+   "length": 0.7,
+   "angle": 98
+  },
+  {
+   "type": "pad",
+   "at": [
+    0.94,
+    0.54
+   ],
+   "w": 0.34,
+   "h": 0.06,
+   "angle": 18
+  },
+  {
+   "type": "cable",
+   "from": [
+    1.25,
+    0.85
+   ]
+  },
+  {
+   "type": "handle"
+  }
+ ]
+}

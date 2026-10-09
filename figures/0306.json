@@ -1,0 +1,53 @@
+{
+ "extends": "templates/tri-decline-extension.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.152,
+    0.536
+   ],
+   "length": 1.25,
+   "angle": 72
+  },
+  {
+   "type": "roller",
+   "at": [
+    0.56,
+    0.47
+   ],
+   "r": 0.07
+  },
+  {
+   "type": "dumbbell"
+  }
+ ],
+ "poses": [
+  {
+   "torso": 252,
+   "head": 252,
+   "arms": [
+    0,
+    0
+   ],
+   "legs": [
+    80,
+    175,
+    95
+   ]
+  },
+  {
+   "torso": 252,
+   "head": 252,
+   "arms": [
+    335,
+    205
+   ],
+   "legs": [
+    80,
+    175,
+    95
+   ]
+  }
+ ]
+}

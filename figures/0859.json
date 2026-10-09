@@ -1,0 +1,49 @@
+{
+ "view": "side",
+ "equipment": [
+  {
+   "type": "bar",
+   "on": [
+    "nearHand"
+   ]
+  },
+  {
+   "type": "hanging",
+   "on": [
+    "nearHand"
+   ],
+   "chain": 0.95,
+   "r": 0.09
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    90,
+    90,
+    125
+   ],
+   "props": [
+    {},
+    {
+     "chain": 0.95
+    }
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    90,
+    90,
+    40
+   ],
+   "props": [
+    {},
+    {
+     "chain": 0.55
+    }
+   ]
+  }
+ ]
+}

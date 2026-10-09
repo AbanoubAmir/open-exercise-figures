@@ -1,0 +1,48 @@
+{
+ "extends": "templates/tri-overhead-extension.json",
+ "equipment": [
+  {
+   "type": "dumbbell"
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    4,
+    4
+   ],
+   "legs": {
+    "near": [
+     110,
+     190,
+     95
+    ],
+    "far": [
+     200,
+     250,
+     120
+    ]
+   }
+  },
+  {
+   "torso": 0,
+   "arms": [
+    356,
+    215
+   ],
+   "legs": {
+    "near": [
+     110,
+     190,
+     95
+    ],
+    "far": [
+     200,
+     250,
+     120
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "extends": "templates/sh-kb-snatch.json",
+ "equipment": [
+  {
+   "type": "barbell",
+   "r": 0.12
+  }
+ ]
+}

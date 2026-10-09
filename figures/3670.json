@@ -1,0 +1,57 @@
+{
+ "extends": "templates/core-decline-sit-up.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    0.0,
+    0.62
+   ],
+   "length": 1.45,
+   "angle": 70
+  },
+  {
+   "type": "roller",
+   "at": [
+    0.521,
+    1.118
+   ],
+   "r": 0.06
+  },
+  {
+   "type": "plate",
+   "on": [
+    "nearHand"
+   ],
+   "r": 0.13
+  }
+ ],
+ "poses": [
+  {
+   "torso": 250,
+   "head": 255,
+   "arms": [
+    55,
+    270
+   ],
+   "legs": [
+    18.1,
+    121.4,
+    60
+   ]
+  },
+  {
+   "torso": 355,
+   "head": 10,
+   "arms": [
+    160,
+    15
+   ],
+   "legs": [
+    18.1,
+    121.4,
+    60
+   ]
+  }
+ ]
+}

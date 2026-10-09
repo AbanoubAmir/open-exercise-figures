@@ -1,0 +1,13 @@
+{
+ "extends": "templates/sh-bent-rear-fly.json",
+ "equipment": [
+  {
+   "type": "plate",
+   "on": [
+    "nearHand",
+    "farHand"
+   ],
+   "r": 0.12
+  }
+ ]
+}

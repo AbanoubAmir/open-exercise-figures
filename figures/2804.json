@@ -1,0 +1,54 @@
+{
+ "extends": "templates/legs-sissy-squat.json",
+ "equipment": [
+  {
+   "type": "roller",
+   "at": "nearAnkle"
+  },
+  {
+   "type": "lever",
+   "from": [
+    -0.25,
+    0.15
+   ],
+   "on": [
+    "nearKnee"
+   ]
+  },
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearWrist"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    165,
+    20,
+    20
+   ],
+   "legs": [
+    180,
+    180,
+    100
+   ]
+  },
+  {
+   "torso": 350,
+   "arms": [
+    160,
+    10,
+    10
+   ],
+   "legs": [
+    125,
+    230,
+    135
+   ],
+   "head": 355
+  }
+ ]
+}

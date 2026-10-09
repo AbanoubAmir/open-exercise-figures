@@ -1,0 +1,43 @@
+{
+ "extends": "templates/core-plank.json",
+ "contact": [
+  "nearWrist",
+  0.04
+ ],
+ "poses": [
+  {
+   "torso": 90,
+   "head": 90,
+   "arms": [
+    180,
+    180,
+    90
+   ],
+   "legs": [
+    270,
+    270,
+    185
+   ]
+  },
+  {
+   "torso": 90,
+   "head": 90,
+   "arms": {
+    "near": [
+     180,
+     180,
+     90
+    ],
+    "far": [
+     0,
+     0
+    ]
+   },
+   "legs": [
+    270,
+    270,
+    185
+   ]
+  }
+ ]
+}

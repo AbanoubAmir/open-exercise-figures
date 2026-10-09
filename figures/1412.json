@@ -1,0 +1,18 @@
+{
+ "extends": "templates/arms-bench-wrist-curl.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    0.14,
+    0.405
+   ],
+   "length": 1.16,
+   "angle": 90
+  },
+  {
+   "type": "barbell",
+   "r": 0.11
+  }
+ ]
+}

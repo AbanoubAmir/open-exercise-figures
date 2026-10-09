@@ -1,0 +1,40 @@
+{
+ "extends": "templates/legs-squat.json",
+ "equipment": [
+  {
+   "type": "rails",
+   "at": [
+    0.62,
+    0
+   ],
+   "h": 1.2
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    115,
+    100
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 28,
+   "arms": [
+    92,
+    85
+   ],
+   "legs": [
+    75,
+    220,
+    95
+   ],
+   "head": 15
+  }
+ ]
+}

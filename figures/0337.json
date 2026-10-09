@@ -1,0 +1,20 @@
+{
+ "extends": "templates/tri-lying-extension-behind.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.25,
+    0.36
+   ],
+   "length": 1.2,
+   "angle": 90
+  },
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ]
+}

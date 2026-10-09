@@ -1,0 +1,20 @@
+{
+ "extends": "templates/legs-front-squat.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.28,
+    0.33
+   ],
+   "length": 0.5
+  },
+  {
+   "type": "barbell",
+   "on": [
+    "nearWrist"
+   ],
+   "r": 0.16
+  }
+ ]
+}

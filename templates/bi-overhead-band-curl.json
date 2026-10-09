@@ -1,0 +1,53 @@
+{
+ "equipment": [
+  {
+   "type": "band",
+   "from": "nearToe"
+  },
+  {
+   "type": "handle",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": {
+    "near": [
+     5,
+     5
+    ],
+    "far": [
+     180,
+     180
+    ]
+   },
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": {
+    "near": [
+     5,
+     230
+    ],
+    "far": [
+     180,
+     180
+    ]
+   },
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  }
+ ],
+ "view": "side"
+}

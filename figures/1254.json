@@ -1,0 +1,50 @@
+{
+ "extends": "templates/chest-bench-press.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.05,
+    0.45
+   ],
+   "length": 1.2,
+   "angle": 90
+  },
+  {
+   "type": "band",
+   "from": [
+    -0.25,
+    0.3
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "arms": [
+    100,
+    355
+   ],
+   "legs": [
+    105,
+    180,
+    95
+   ],
+   "shorten": {
+    "upperArm": 0.72
+   }
+  },
+  {
+   "torso": 270,
+   "arms": [
+    8,
+    4
+   ],
+   "legs": [
+    105,
+    180,
+    95
+   ]
+  }
+ ]
+}

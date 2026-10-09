@@ -1,0 +1,59 @@
+{
+ "view": "side",
+ "anchor": [
+  "hip",
+  [
+   0.2,
+   0.11
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "kettlebell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "arms": {
+    "near": [
+     2,
+     0
+    ],
+    "far": [
+     95,
+     92
+    ]
+   },
+   "legs": [
+    35,
+    152,
+    95
+   ]
+  },
+  {
+   "torso": 270,
+   "arms": {
+    "near": [
+     106,
+     355
+    ],
+    "far": [
+     95,
+     92
+    ]
+   },
+   "legs": [
+    35,
+    152,
+    95
+   ],
+   "shorten": {
+    "upperArm": 0.72
+   }
+  }
+ ]
+}

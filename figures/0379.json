@@ -1,0 +1,27 @@
+{
+ "extends": "templates/sh-bent-rear-fly.json",
+ "equipment": [
+  {
+   "type": "pad",
+   "at": [
+    0.75,
+    1.17
+   ],
+   "w": 0.3,
+   "h": 0.1,
+   "angle": 0
+  },
+  {
+   "type": "box",
+   "at": [
+    0.75,
+    0
+   ],
+   "w": 0.12,
+   "h": 1.02
+  },
+  {
+   "type": "dumbbell"
+  }
+ ]
+}

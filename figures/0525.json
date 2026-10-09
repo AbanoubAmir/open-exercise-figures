@@ -1,0 +1,11 @@
+{
+ "extends": "templates/bi-kettlebell-hang-clean.json",
+ "equipment": [
+  {
+   "type": "kettlebell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ]
+}

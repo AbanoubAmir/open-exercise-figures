@@ -1,0 +1,12 @@
+{
+ "extends": "templates/legs-goblet-squat.json",
+ "equipment": [
+  {
+   "type": "plate",
+   "on": [
+    "nearWrist"
+   ],
+   "r": 0.14
+  }
+ ]
+}

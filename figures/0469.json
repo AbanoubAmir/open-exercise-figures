@@ -1,0 +1,33 @@
+{
+ "extends": "templates/core-reverse-crunch.json",
+ "poses": [
+  {
+   "torso": 270,
+   "head": 270,
+   "arms": [
+    300,
+    165,
+    270
+   ],
+   "legs": [
+    41.3,
+    144.6,
+    95
+   ]
+  },
+  {
+   "torso": 262,
+   "head": 270,
+   "arms": [
+    292,
+    157,
+    262
+   ],
+   "legs": [
+    330,
+    75,
+    40
+   ]
+  }
+ ]
+}

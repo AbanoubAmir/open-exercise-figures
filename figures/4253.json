@@ -1,0 +1,39 @@
+{
+ "extends": "templates/core-crunch.json",
+ "equipment": [
+  {
+   "type": "medicineBall",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "head": 275,
+   "arms": [
+    75,
+    290
+   ],
+   "legs": [
+    42.9,
+    142.7,
+    95
+   ]
+  },
+  {
+   "torso": 296,
+   "head": 324,
+   "arms": [
+    101,
+    316
+   ],
+   "legs": [
+    42.9,
+    142.7,
+    95
+   ]
+  }
+ ]
+}

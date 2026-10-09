@@ -1,0 +1,70 @@
+{
+ "extends": "templates/chest-cable-fly.json",
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    -0.55,
+    0.15
+   ],
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "anchor": [
+  "hip",
+  [
+   0,
+   0.92
+  ]
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "head": 0,
+   "arms": {
+    "near": [
+     192,
+     200
+    ],
+    "far": [
+     168,
+     175
+    ]
+   },
+   "legs": [
+    172,
+    190,
+    120
+   ],
+   "shorten": {
+    "torso": 0.45,
+    "neck": 0.5
+   }
+  },
+  {
+   "torso": 0,
+   "head": 0,
+   "arms": {
+    "near": [
+     92,
+     98
+    ],
+    "far": [
+     168,
+     175
+    ]
+   },
+   "legs": [
+    172,
+    190,
+    120
+   ],
+   "shorten": {
+    "torso": 0.45,
+    "neck": 0.5
+   }
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "view": "front",
+ "anchor": [
+  "hip",
+  [
+   0,
+   0.6
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "box",
+   "at": [
+    0,
+    0
+   ],
+   "w": 0.5,
+   "h": 0.47
+  },
+  {
+   "type": "lever",
+   "from": [
+    0.5,
+    1.05
+   ],
+   "on": [
+    "head"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "neck": 0,
+   "head": 0,
+   "arms": [
+    160,
+    182
+   ],
+   "legs": [
+    168,
+    180,
+    120
+   ],
+   "shorten": {
+    "thigh": 0.22
+   }
+  },
+  {
+   "torso": 0,
+   "neck": 14,
+   "head": 38,
+   "arms": [
+    160,
+    182
+   ],
+   "legs": [
+    168,
+    180,
+    120
+   ],
+   "shorten": {
+    "thigh": 0.22
+   }
+  }
+ ]
+}

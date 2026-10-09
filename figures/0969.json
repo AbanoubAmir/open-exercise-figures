@@ -1,0 +1,80 @@
+{
+ "extends": "templates/core-v-up.json",
+ "equipment": [
+  {
+   "type": "band",
+   "from": "nearToe",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "head": 280,
+   "arms": [
+    268,
+    268
+   ],
+   "legs": [
+    92,
+    92,
+    60
+   ]
+  },
+  {
+   "torso": 325,
+   "head": 350,
+   "arms": [
+    50,
+    50
+   ],
+   "legs": {
+    "near": [
+     38,
+     38,
+     15
+    ],
+    "far": [
+     50,
+     50,
+     25
+    ]
+   }
+  },
+  {
+   "torso": 270,
+   "head": 280,
+   "arms": [
+    268,
+    268
+   ],
+   "legs": [
+    92,
+    92,
+    60
+   ]
+  },
+  {
+   "torso": 325,
+   "head": 350,
+   "arms": [
+    50,
+    50
+   ],
+   "legs": {
+    "near": [
+     50,
+     50,
+     25
+    ],
+    "far": [
+     38,
+     38,
+     15
+    ]
+   }
+  }
+ ]
+}

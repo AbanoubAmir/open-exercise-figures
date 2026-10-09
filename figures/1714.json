@@ -1,0 +1,67 @@
+{
+ "extends": "templates/core-squat.json",
+ "poses": [
+  {
+   "torso": 86,
+   "head": 95,
+   "arms": {
+    "near": [
+     255,
+     265
+    ],
+    "far": [
+     80,
+     85
+    ]
+   },
+   "legs": [
+    270,
+    270,
+    215
+   ]
+  },
+  {
+   "torso": 80,
+   "head": 90,
+   "arms": {
+    "near": [
+     292,
+     292,
+     292
+    ],
+    "far": [
+     80,
+     85
+    ]
+   },
+   "legs": {
+    "near": [
+     270,
+     35,
+     300
+    ],
+    "far": [
+     270,
+     270,
+     215
+    ]
+   }
+  }
+ ],
+ "anchor": [
+  "hip",
+  [
+   0.0,
+   0.11
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "band",
+   "from": "nearHand",
+   "on": [
+    "nearAnkle"
+   ]
+  }
+ ]
+}

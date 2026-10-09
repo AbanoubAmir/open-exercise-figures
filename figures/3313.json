@@ -1,0 +1,24 @@
+{
+ "extends": "templates/chest-dip.json",
+ "equipment": [
+  {
+   "type": "rails",
+   "at": [
+    0.06,
+    0
+   ],
+   "h": 1.15
+  },
+  {
+   "type": "bar"
+  },
+  {
+   "type": "hanging",
+   "on": [
+    "hip"
+   ],
+   "chain": 0.35,
+   "r": 0.11
+  }
+ ]
+}

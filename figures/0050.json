@@ -1,0 +1,32 @@
+{
+ "extends": "templates/chest-incline-press.json",
+ "poses": [
+  {
+   "torso": 315,
+   "arms": [
+    134,
+    6
+   ],
+   "legs": [
+    105,
+    180,
+    95
+   ],
+   "shorten": {
+    "upperArm": 0.72
+   }
+  },
+  {
+   "torso": 315,
+   "arms": [
+    342,
+    338
+   ],
+   "legs": [
+    105,
+    180,
+    95
+   ]
+  }
+ ]
+}

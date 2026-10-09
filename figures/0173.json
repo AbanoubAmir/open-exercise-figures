@@ -1,0 +1,43 @@
+{
+ "extends": "templates/tri-cable-overhead-extension.json",
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    -0.55,
+    0.15
+   ]
+  },
+  {
+   "type": "bar"
+  }
+ ],
+ "poses": [
+  {
+   "torso": 12,
+   "head": 5,
+   "arms": [
+    8,
+    8
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 12,
+   "head": 5,
+   "arms": [
+    2,
+    220
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  }
+ ]
+}

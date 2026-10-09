@@ -1,0 +1,73 @@
+{
+ "extends": "templates/calf-seated-raise.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.15,
+    0.375
+   ],
+   "length": 0.6,
+   "angle": 90
+  },
+  {
+   "type": "box",
+   "at": [
+    0.62,
+    0
+   ],
+   "w": 0.3,
+   "h": 0.12
+  },
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 8,
+   "head": 15,
+   "legs": {
+    "near": [
+     92.4,
+     182.6,
+     70
+    ],
+    "far": [
+     84,
+     84,
+     5
+    ]
+   },
+   "arms": [
+    155.6,
+    121.4,
+    95
+   ]
+  },
+  {
+   "torso": 8,
+   "head": 15,
+   "legs": {
+    "near": [
+     67.9,
+     171.6,
+     140
+    ],
+    "far": [
+     84,
+     84,
+     5
+    ]
+   },
+   "arms": [
+    167.2,
+    73.0,
+    95
+   ]
+  }
+ ]
+}

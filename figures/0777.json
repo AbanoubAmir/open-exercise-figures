@@ -1,0 +1,54 @@
+{
+ "extends": "templates/core-standing-twist.json",
+ "poses": [
+  {
+   "torso": 0,
+   "head": 0,
+   "arms": {
+    "near": [
+     175,
+     180
+    ],
+    "far": [
+     180,
+     180
+    ]
+   },
+   "legs": [
+    167,
+    167,
+    120
+   ]
+  },
+  {
+   "torso": -25,
+   "head": -25,
+   "shorten": {
+    "torso": 0.85
+   },
+   "arms": {
+    "near": [
+     215,
+     205
+    ],
+    "far": [
+     160,
+     170
+    ]
+   },
+   "legs": [
+    167,
+    167,
+    120
+   ]
+  }
+ ],
+ "equipment": [
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ]
+}

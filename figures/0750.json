@@ -1,0 +1,55 @@
+{
+ "extends": "templates/legs-smith-squat.json",
+ "equipment": [
+  {
+   "type": "rails",
+   "at": [
+    0.12,
+    0
+   ]
+  },
+  {
+   "type": "barbell",
+   "on": [
+    "nearWrist"
+   ],
+   "r": 0.16
+  }
+ ],
+ "anchor": [
+  "nearAnkle",
+  [
+   0.28,
+   0.09
+  ]
+ ],
+ "poses": [
+  {
+   "torso": 12,
+   "arms": [
+    220,
+    20,
+    20
+   ],
+   "legs": [
+    165,
+    172,
+    95
+   ]
+  },
+  {
+   "torso": 42,
+   "arms": [
+    238,
+    33,
+    33
+   ],
+   "legs": [
+    85,
+    188,
+    95
+   ],
+   "head": 25
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "extends": "templates/back-seated-cable-row.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.1,
+    0.32
+   ],
+   "length": 0.7,
+   "angle": 90
+  },
+  {
+   "type": "pad",
+   "at": [
+    0.94,
+    0.54
+   ],
+   "w": 0.34,
+   "h": 0.06,
+   "angle": 18
+  },
+  {
+   "type": "cable",
+   "from": [
+    1.15,
+    0.72
+   ],
+   "on": [
+    "nearHand"
+   ]
+  },
+  {
+   "type": "handle",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 22,
+   "head": 15,
+   "arms": {
+    "near": [
+     95,
+     95
+    ],
+    "far": [
+     150,
+     100
+    ]
+   },
+   "legs": [
+    76,
+    112,
+    20
+   ]
+  },
+  {
+   "torso": -4,
+   "arms": {
+    "near": [
+     220,
+     110
+    ],
+    "far": [
+     150,
+     100
+    ]
+   },
+   "legs": [
+    76,
+    112,
+    20
+   ]
+  }
+ ]
+}

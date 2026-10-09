@@ -1,0 +1,35 @@
+{
+ "extends": "templates/back-incline-row.json",
+ "poses": [
+  {
+   "torso": 45,
+   "head": 60,
+   "arms": [
+    180,
+    180
+   ],
+   "legs": [
+    190,
+    178,
+    95
+   ]
+  },
+  {
+   "torso": 45,
+   "head": 60,
+   "arms": [
+    180,
+    180
+   ],
+   "legs": [
+    190,
+    178,
+    95
+   ],
+   "shorten": {
+    "torso": 1.17,
+    "neck": 0.15
+   }
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "extends": "templates/core-hanging-leg-raise.json",
+ "poses": [
+  {
+   "torso": -4,
+   "head": -4,
+   "arms": [
+    356,
+    356
+   ],
+   "legs": [
+    180,
+    180,
+    150
+   ]
+  },
+  {
+   "torso": -25,
+   "head": -25,
+   "arms": [
+    20,
+    20
+   ],
+   "legs": [
+    25,
+    25,
+    355
+   ]
+  }
+ ]
+}

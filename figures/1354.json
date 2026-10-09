@@ -1,0 +1,35 @@
+{
+ "view": "side",
+ "equipment": [
+  {
+   "type": "medicineBall"
+  }
+ ],
+ "poses": [
+  {
+   "torso": -4,
+   "arms": [
+    4,
+    2
+   ],
+   "legs": [
+    178,
+    182,
+    125
+   ]
+  },
+  {
+   "torso": 62,
+   "head": 60,
+   "arms": [
+    150,
+    150
+   ],
+   "legs": [
+    115,
+    205,
+    95
+   ]
+  }
+ ]
+}

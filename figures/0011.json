@@ -1,0 +1,22 @@
+{
+ "extends": "templates/core-hanging-knee-raise.json",
+ "equipment": [
+  {
+   "type": "pullupBar",
+   "at": [
+    0.0,
+    2.35
+   ]
+  },
+  {
+   "type": "band",
+   "from": [
+    0.0,
+    2.35
+   ],
+   "on": [
+    "nearKnee"
+   ]
+  }
+ ]
+}

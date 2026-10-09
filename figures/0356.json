@@ -1,0 +1,58 @@
+{
+ "extends": "templates/dumbbell-lateral-raise.json",
+ "equipment": [
+  {
+   "type": "wall",
+   "at": [
+    -0.86,
+    0
+   ]
+  },
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": {
+    "near": [
+     172,
+     175
+    ],
+    "far": [
+     95,
+     95,
+     5
+    ]
+   },
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": {
+    "near": [
+     95,
+     100
+    ],
+    "far": [
+     95,
+     95,
+     5
+    ]
+   },
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  }
+ ]
+}

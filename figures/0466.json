@@ -1,0 +1,30 @@
+{
+ "extends": "templates/back-chin-up.json",
+ "poses": [
+  {
+   "torso": -4,
+   "arms": [
+    4,
+    4
+   ],
+   "legs": [
+    182,
+    196,
+    150
+   ]
+  },
+  {
+   "torso": -42,
+   "head": -20,
+   "arms": [
+    48.5,
+    185.7
+   ],
+   "legs": [
+    150,
+    175,
+    140
+   ]
+  }
+ ]
+}

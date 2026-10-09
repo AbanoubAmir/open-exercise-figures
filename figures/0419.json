@@ -1,0 +1,41 @@
+{
+ "extends": "templates/sh-front-raise-side.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    172,
+    168
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    90,
+    88
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    10,
+    8
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  }
+ ]
+}

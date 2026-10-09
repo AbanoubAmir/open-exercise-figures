@@ -1,0 +1,50 @@
+{
+ "extends": "templates/sh-seat-press-front.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    165,
+    25
+   ],
+   "legs": [
+    172,
+    180,
+    120
+   ],
+   "shorten": {
+    "thigh": 0.15
+   }
+  },
+  {
+   "torso": 0,
+   "arms": [
+    95,
+    6
+   ],
+   "legs": [
+    172,
+    180,
+    120
+   ],
+   "shorten": {
+    "thigh": 0.15
+   }
+  },
+  {
+   "torso": 0,
+   "arms": [
+    12,
+    4
+   ],
+   "legs": [
+    172,
+    180,
+    120
+   ],
+   "shorten": {
+    "thigh": 0.15
+   }
+  }
+ ]
+}

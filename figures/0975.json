@@ -1,0 +1,12 @@
+{
+ "extends": "templates/tri-close-pushup.json",
+ "equipment": [
+  {
+   "type": "band",
+   "from": "nearWrist",
+   "on": [
+    "nearShoulder"
+   ]
+  }
+ ]
+}

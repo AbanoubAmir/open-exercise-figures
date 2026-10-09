@@ -1,0 +1,50 @@
+{
+ "extends": "templates/core-rollout.json",
+ "poses": [
+  {
+   "torso": 74.4,
+   "head": 84.4,
+   "arms": [
+    96.3,
+    96.3,
+    96.3
+   ],
+   "legs": [
+    165,
+    270,
+    250
+   ]
+  },
+  {
+   "torso": 52,
+   "head": 62,
+   "arms": [
+    99.0,
+    99.0,
+    99.0
+   ],
+   "legs": [
+    232,
+    270,
+    250
+   ]
+  }
+ ],
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    1.0,
+    0.42
+   ],
+   "length": 1.3
+  },
+  {
+   "type": "barbell",
+   "on": [
+    "nearWrist"
+   ],
+   "r": 0.12
+  }
+ ]
+}

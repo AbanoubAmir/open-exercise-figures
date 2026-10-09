@@ -1,0 +1,18 @@
+{
+ "extends": "templates/back-incline-row.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    0.33,
+    1.03
+   ],
+   "length": 0.8,
+   "angle": 45
+  },
+  {
+   "type": "barbell",
+   "r": 0.15
+  }
+ ]
+}

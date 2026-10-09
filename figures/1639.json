@@ -1,0 +1,37 @@
+{
+ "extends": "templates/bi-cable-standing-preacher-curl.json",
+ "equipment": [
+  {
+   "type": "rails",
+   "at": [
+    0.158,
+    0
+   ],
+   "h": 1.065
+  },
+  {
+   "type": "pad",
+   "at": [
+    0.208,
+    1.215
+   ],
+   "w": 0.4,
+   "h": 0.12,
+   "angle": 135.0
+  },
+  {
+   "type": "cable",
+   "from": [
+    0.95,
+    0.12
+   ],
+   "on": [
+    "nearHand",
+    "farHand"
+   ]
+  },
+  {
+   "type": "handle"
+  }
+ ]
+}

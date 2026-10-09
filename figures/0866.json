@@ -1,0 +1,18 @@
+{
+ "extends": "templates/core-hanging-leg-raise.json",
+ "equipment": [
+  {
+   "type": "pullupBar",
+   "at": [
+    0.0,
+    2.35
+   ]
+  },
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearAnkle"
+   ]
+  }
+ ]
+}

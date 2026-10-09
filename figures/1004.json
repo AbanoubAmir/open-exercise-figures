@@ -1,0 +1,41 @@
+{
+ "view": "front",
+ "equipment": [
+  {
+   "type": "band",
+   "from": "farKnee",
+   "on": [
+    "nearKnee"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    165,
+    330
+   ],
+   "legs": [
+    178,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    165,
+    330
+   ],
+   "legs": [
+    140,
+    197,
+    120
+   ],
+   "shorten": {
+    "thigh": 0.5
+   }
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "extends": "templates/core-squat.json",
+ "poses": [
+  {
+   "torso": 58,
+   "head": 65,
+   "arms": {
+    "near": [
+     205,
+     205
+    ],
+    "far": [
+     170,
+     170
+    ]
+   },
+   "legs": {
+    "near": [
+     129.9,
+     198.6,
+     95
+    ],
+    "far": [
+     129.9,
+     198.6,
+     95
+    ]
+   }
+  },
+  {
+   "torso": 58,
+   "head": 65,
+   "arms": {
+    "near": [
+     150,
+     150
+    ],
+    "far": [
+     195,
+     195
+    ]
+   },
+   "legs": {
+    "near": [
+     129.9,
+     198.6,
+     95
+    ],
+    "far": [
+     129.9,
+     198.6,
+     95
+    ]
+   }
+  }
+ ],
+ "equipment": [
+  {
+   "type": "kettlebell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ]
+}

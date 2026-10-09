@@ -1,0 +1,69 @@
+{
+ "extends": "templates/sh-press-front.json",
+ "equipment": [
+  {
+   "type": "band",
+   "from": "nearToe",
+   "on": [
+    "nearHand"
+   ]
+  },
+  {
+   "type": "band",
+   "from": "farToe",
+   "on": [
+    "farHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    100,
+    8
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": -7,
+   "arms": [
+    12,
+    4
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    100,
+    8
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 7,
+   "arms": [
+    12,
+    4
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  }
+ ]
+}

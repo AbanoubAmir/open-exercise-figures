@@ -1,0 +1,27 @@
+{
+ "extends": "templates/sh-prone-rear-fly.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    0.0,
+    0.5
+   ],
+   "length": 1.0,
+   "angle": 90
+  },
+  {
+   "type": "cable",
+   "from": [
+    0.75,
+    0.12
+   ],
+   "on": [
+    "nearHand"
+   ]
+  },
+  {
+   "type": "handle"
+  }
+ ]
+}

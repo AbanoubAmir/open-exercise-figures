@@ -1,0 +1,40 @@
+{
+ "extends": "templates/core-leg-raise.json",
+ "equipment": [
+  {
+   "type": "band",
+   "from": "nearToe",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "head": 275,
+   "arms": [
+    30,
+    15
+   ],
+   "legs": [
+    88,
+    88,
+    58
+   ]
+  },
+  {
+   "torso": 270,
+   "head": 275,
+   "arms": [
+    330,
+    315
+   ],
+   "legs": [
+    2,
+    2,
+    332
+   ]
+  }
+ ]
+}

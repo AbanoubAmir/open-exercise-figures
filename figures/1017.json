@@ -1,0 +1,45 @@
+{
+ "extends": "templates/dumbbell-lateral-raise.json",
+ "equipment": [
+  {
+   "type": "band",
+   "from": "nearToe",
+   "on": [
+    "nearHand"
+   ]
+  },
+  {
+   "type": "band",
+   "from": "farToe",
+   "on": [
+    "farHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    182,
+    182
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    35,
+    35
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  }
+ ]
+}

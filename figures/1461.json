@@ -1,0 +1,32 @@
+{
+ "extends": "templates/legs-wide-squat-front.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    120,
+    10
+   ],
+   "legs": [
+    170,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    118,
+    12
+   ],
+   "legs": [
+    125,
+    194,
+    120
+   ],
+   "shorten": {
+    "thigh": 0.5
+   }
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "view": "side",
+ "equipment": [
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    178,
+    178
+   ],
+   "legs": [
+    170,
+    188,
+    95
+   ]
+  },
+  {
+   "torso": 55,
+   "arms": [
+    200,
+    200
+   ],
+   "legs": [
+    125,
+    200,
+    95
+   ],
+   "head": 40
+  }
+ ]
+}

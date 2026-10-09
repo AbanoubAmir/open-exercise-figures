@@ -1,0 +1,33 @@
+{
+ "extends": "templates/core-decline-sit-up.json",
+ "poses": [
+  {
+   "torso": 250,
+   "head": 255,
+   "arms": [
+    280,
+    145,
+    250
+   ],
+   "legs": [
+    18.1,
+    121.4,
+    60
+   ]
+  },
+  {
+   "torso": 300,
+   "head": 328,
+   "arms": [
+    330,
+    195,
+    300
+   ],
+   "legs": [
+    18.1,
+    121.4,
+    60
+   ]
+  }
+ ]
+}

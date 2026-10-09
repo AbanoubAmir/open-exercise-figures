@@ -1,0 +1,11 @@
+{
+ "extends": "templates/legs-goblet-squat.json",
+ "equipment": [
+  {
+   "type": "kettlebell",
+   "on": [
+    "nearWrist"
+   ]
+  }
+ ]
+}

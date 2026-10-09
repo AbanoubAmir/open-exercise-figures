@@ -1,0 +1,55 @@
+{
+ "extends": "templates/sh-press-front.json",
+ "equipment": [
+  {
+   "type": "kettlebell"
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    192,
+    6
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ],
+   "shorten": {
+    "upperArm": 0.45
+   }
+  },
+  {
+   "torso": 0,
+   "arms": [
+    100,
+    8
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ],
+   "shorten": {
+    "upperArm": 1
+   }
+  },
+  {
+   "torso": 0,
+   "arms": [
+    12,
+    4
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ],
+   "shorten": {
+    "upperArm": 1
+   }
+  }
+ ]
+}

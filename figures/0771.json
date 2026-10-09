@@ -1,0 +1,16 @@
+{
+ "extends": "templates/arms-standing-back-wrist-curl.json",
+ "equipment": [
+  {
+   "type": "rails",
+   "at": [
+    -0.3,
+    0
+   ]
+  },
+  {
+   "type": "barbell",
+   "r": 0.1
+  }
+ ]
+}

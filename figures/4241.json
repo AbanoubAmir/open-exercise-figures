@@ -1,0 +1,58 @@
+{
+ "view": "front",
+ "anchor": [
+  "farAnkle",
+  [
+   -0.15,
+   0.09
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "band",
+   "from": "farAnkle",
+   "on": [
+    "nearAnkle"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    165,
+    150
+   ],
+   "legs": [
+    165,
+    190,
+    120
+   ],
+   "shorten": {
+    "thigh": 0.75
+   }
+  },
+  {
+   "torso": 0,
+   "arms": [
+    165,
+    150
+   ],
+   "legs": {
+    "near": [
+     140,
+     160,
+     120
+    ],
+    "far": [
+     165,
+     190,
+     120
+    ]
+   },
+   "shorten": {
+    "thigh": 0.75
+   }
+  }
+ ]
+}

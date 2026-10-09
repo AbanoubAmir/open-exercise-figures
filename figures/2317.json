@@ -1,0 +1,37 @@
+{
+ "extends": "templates/sh-seat-lateral-front.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    175,
+    175
+   ],
+   "legs": [
+    172,
+    180,
+    120
+   ],
+   "shorten": {
+    "thigh": 0.15,
+    "forearm": 0.35
+   }
+  },
+  {
+   "torso": 0,
+   "arms": [
+    92,
+    92
+   ],
+   "legs": [
+    172,
+    180,
+    120
+   ],
+   "shorten": {
+    "thigh": 0.15,
+    "forearm": 0.35
+   }
+  }
+ ]
+}

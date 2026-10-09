@@ -1,0 +1,32 @@
+{
+ "extends": "templates/chest-decline-press.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    0.028,
+    0.44
+   ],
+   "length": 1.1,
+   "angle": 70
+  },
+  {
+   "type": "roller",
+   "at": [
+    0.56,
+    0.2
+   ],
+   "r": 0.07
+  },
+  {
+   "type": "cable",
+   "from": [
+    -0.3,
+    0.05
+   ]
+  },
+  {
+   "type": "handle"
+  }
+ ]
+}

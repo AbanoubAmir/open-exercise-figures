@@ -1,0 +1,50 @@
+{
+ "extends": "templates/tri-seated-overhead-extension.json",
+ "anchor": [
+  "hip",
+  [
+   0,
+   0.69
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    -0.05,
+    0.3
+   ],
+   "r": 0.3
+  },
+  {
+   "type": "barbell",
+   "r": 0.15
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    4,
+    4
+   ],
+   "legs": [
+    114,
+    170,
+    95
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    356,
+    215
+   ],
+   "legs": [
+    114,
+    170,
+    95
+   ]
+  }
+ ]
+}

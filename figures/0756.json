@@ -1,0 +1,64 @@
+{
+ "extends": "templates/core-hip-raise.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.55,
+    0.42
+   ],
+   "length": 0.6
+  },
+  {
+   "type": "rails",
+   "at": [
+    0.0,
+    0
+   ]
+  },
+  {
+   "type": "barbell",
+   "on": [
+    "nearHand"
+   ],
+   "r": 0.15
+  }
+ ],
+ "poses": [
+  {
+   "torso": 308,
+   "head": 275,
+   "arms": [
+    99.4,
+    147.6,
+    90
+   ],
+   "legs": [
+    54.0,
+    154.6,
+    95
+   ]
+  },
+  {
+   "torso": 270,
+   "head": 275,
+   "arms": [
+    75.5,
+    93.5,
+    90
+   ],
+   "legs": [
+    92.6,
+    181.3,
+    95
+   ]
+  }
+ ],
+ "anchor": [
+  "nearAnkle",
+  [
+   0.45,
+   0.09
+  ]
+ ]
+}

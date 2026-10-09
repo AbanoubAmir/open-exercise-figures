@@ -1,0 +1,20 @@
+{
+ "extends": "templates/sh-upright-row-front.json",
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    0,
+    0.12
+   ],
+   "on": [
+    "nearHand",
+    "farHand"
+   ]
+  },
+  {
+   "type": "bar",
+   "half": 0.3
+  }
+ ]
+}

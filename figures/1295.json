@@ -1,0 +1,45 @@
+{
+ "extends": "templates/chest-ball-press.json",
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    -0.236,
+    0.299
+   ],
+   "r": 0.3
+  },
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 280,
+   "arms": [
+    10,
+    8
+   ],
+   "legs": [
+    110,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 280,
+   "arms": [
+    272,
+    266
+   ],
+   "legs": [
+    110,
+    180,
+    95
+   ]
+  }
+ ]
+}

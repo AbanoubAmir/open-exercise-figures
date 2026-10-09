@@ -1,0 +1,20 @@
+{
+ "extends": "templates/legs-squat.json",
+ "anchor": [
+  "nearAnkle",
+  [
+   0,
+   0.3
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "bosu",
+   "at": [
+    0.03,
+    0
+   ],
+   "r": 0.22
+  }
+ ]
+}

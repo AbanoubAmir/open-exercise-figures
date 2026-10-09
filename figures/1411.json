@@ -1,0 +1,48 @@
+{
+ "extends": "templates/arms-seated-wrist-curl.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.12,
+    0.335
+   ],
+   "length": 0.62,
+   "angle": 90
+  },
+  {
+   "type": "barbell",
+   "r": 0.11
+  }
+ ],
+ "poses": [
+  {
+   "torso": 30,
+   "head": 48,
+   "legs": [
+    90.1,
+    176.0,
+    95
+   ],
+   "arms": [
+    173.7,
+    98.7,
+    50
+   ]
+  },
+  {
+   "torso": 30,
+   "head": 48,
+   "legs": [
+    90.1,
+    176.0,
+    95
+   ],
+   "arms": [
+    173.7,
+    98.7,
+    150
+   ]
+  }
+ ]
+}

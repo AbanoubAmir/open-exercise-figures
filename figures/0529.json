@@ -1,0 +1,47 @@
+{
+ "extends": "templates/sh-kb-snatch.json",
+ "equipment": [
+  {
+   "type": "kettlebell"
+  }
+ ],
+ "poses": [
+  {
+   "torso": 60,
+   "head": 45,
+   "arms": [
+    200,
+    200
+   ],
+   "legs": [
+    140,
+    195,
+    95
+   ]
+  },
+  {
+   "torso": -4,
+   "arms": [
+    150,
+    15
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": -2,
+   "arms": [
+    4,
+    2
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  }
+ ]
+}

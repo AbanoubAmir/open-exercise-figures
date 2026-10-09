@@ -1,0 +1,58 @@
+{
+ "extends": "templates/tri-bar-dip.json",
+ "equipment": [
+  {
+   "type": "parallelBars",
+   "at": [
+    0.02,
+    1.25
+   ]
+  },
+  {
+   "type": "lever",
+   "from": [
+    0.75,
+    0.35
+   ],
+   "on": [
+    "nearKnee"
+   ]
+  },
+  {
+   "type": "pad",
+   "at": "nearKnee",
+   "w": 0.3,
+   "h": 0.1
+  }
+ ],
+ "poses": [
+  {
+   "torso": 5,
+   "head": 5,
+   "arms": [
+    180,
+    180,
+    90
+   ],
+   "legs": [
+    180,
+    268,
+    265
+   ]
+  },
+  {
+   "torso": 22,
+   "head": 18,
+   "arms": [
+    252,
+    175,
+    90
+   ],
+   "legs": [
+    180,
+    268,
+    265
+   ]
+  }
+ ]
+}

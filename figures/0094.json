@@ -1,0 +1,151 @@
+{
+ "extends": "templates/core-russian-twist.json",
+ "poses": [
+  {
+   "torso": 0,
+   "head": 0,
+   "shorten": {
+    "thigh": 0.35,
+    "upperArm": 0.8,
+    "forearm": 0.8
+   },
+   "arms": {
+    "near": [
+     193.2,
+     324.9
+    ],
+    "far": [
+     193.2,
+     324.9
+    ]
+   },
+   "legs": {
+    "near": [
+     170,
+     178,
+     120
+    ],
+    "far": [
+     170,
+     178,
+     120
+    ]
+   }
+  },
+  {
+   "torso": 6,
+   "head": 6,
+   "shorten": {
+    "thigh": 0.35,
+    "upperArm": 0.8,
+    "forearm": 0.8
+   },
+   "arms": {
+    "near": [
+     176.7,
+     45.5
+    ],
+    "far": [
+     254.6,
+     254.8
+    ]
+   },
+   "legs": {
+    "near": [
+     170,
+     178,
+     120
+    ],
+    "far": [
+     170,
+     178,
+     120
+    ]
+   }
+  },
+  {
+   "torso": 0,
+   "head": 0,
+   "shorten": {
+    "thigh": 0.35,
+    "upperArm": 0.8,
+    "forearm": 0.8
+   },
+   "arms": {
+    "near": [
+     193.2,
+     324.9
+    ],
+    "far": [
+     193.2,
+     324.9
+    ]
+   },
+   "legs": {
+    "near": [
+     170,
+     178,
+     120
+    ],
+    "far": [
+     170,
+     178,
+     120
+    ]
+   }
+  },
+  {
+   "torso": -6,
+   "head": -6,
+   "shorten": {
+    "thigh": 0.35,
+    "upperArm": 0.8,
+    "forearm": 0.8
+   },
+   "arms": {
+    "near": [
+     254.6,
+     254.8
+    ],
+    "far": [
+     176.7,
+     45.5
+    ]
+   },
+   "legs": {
+    "near": [
+     170,
+     178,
+     120
+    ],
+    "far": [
+     170,
+     178,
+     120
+    ]
+   }
+  }
+ ],
+ "anchor": [
+  "hip",
+  [
+   0.0,
+   0.6
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "box",
+   "at": [
+    0,
+    0
+   ],
+   "w": 0.42,
+   "h": 0.46
+  },
+  {
+   "type": "barbell",
+   "half": 0.6
+  }
+ ]
+}

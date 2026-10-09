@@ -1,0 +1,25 @@
+{
+ "extends": "templates/back-shrug.json",
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    0.3,
+    0.12
+   ],
+   "on": [
+    "nearHand"
+   ]
+  },
+  {
+   "type": "cable",
+   "from": [
+    -0.3,
+    0.12
+   ],
+   "on": [
+    "farHand"
+   ]
+  }
+ ]
+}

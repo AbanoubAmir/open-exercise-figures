@@ -1,0 +1,32 @@
+{
+ "extends": "templates/legs-good-morning.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    215,
+    15,
+    15
+   ],
+   "legs": [
+    178,
+    182,
+    95
+   ]
+  },
+  {
+   "torso": 85,
+   "arms": [
+    290,
+    70,
+    70
+   ],
+   "legs": [
+    172,
+    182,
+    95
+   ],
+   "head": 72
+  }
+ ]
+}

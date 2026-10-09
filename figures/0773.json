@@ -1,0 +1,16 @@
+{
+ "extends": "templates/calf-barbell-raise.json",
+ "equipment": [
+  {
+   "type": "rails",
+   "at": [
+    -0.353,
+    0
+   ]
+  },
+  {
+   "type": "barbell",
+   "r": 0.17
+  }
+ ]
+}

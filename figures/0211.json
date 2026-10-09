@@ -1,0 +1,94 @@
+{
+ "extends": "templates/core-russian-twist.json",
+ "poses": [
+  {
+   "torso": -3,
+   "head": -3,
+   "shorten": {
+    "thigh": 0.42,
+    "upperArm": 0.55,
+    "forearm": 0.55
+   },
+   "arms": {
+    "near": [
+     254.9,
+     255.1
+    ],
+    "far": [
+     186.6,
+     62.5
+    ]
+   },
+   "legs": {
+    "near": [
+     168,
+     175,
+     120
+    ],
+    "far": [
+     168,
+     175,
+     120
+    ]
+   }
+  },
+  {
+   "torso": 4,
+   "head": 4,
+   "shorten": {
+    "thigh": 0.42,
+    "upperArm": 0.55,
+    "forearm": 0.55
+   },
+   "arms": {
+    "near": [
+     140.7,
+     140.5
+    ],
+    "far": [
+     241.1,
+     241.3
+    ]
+   },
+   "legs": {
+    "near": [
+     168,
+     175,
+     120
+    ],
+    "far": [
+     168,
+     175,
+     120
+    ]
+   }
+  }
+ ],
+ "anchor": [
+  "hip",
+  [
+   0.0,
+   0.74
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    0,
+    0.33
+   ],
+   "r": 0.33
+  },
+  {
+   "type": "cable",
+   "from": [
+    -0.95,
+    1.1
+   ],
+   "on": [
+    "nearHand"
+   ]
+  }
+ ]
+}

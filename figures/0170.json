@@ -1,0 +1,88 @@
+{
+ "view": "front",
+ "anchor": [
+  "hip",
+  [
+   0,
+   0.78
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    0,
+    0.33
+   ],
+   "r": 0.33
+  },
+  {
+   "type": "cable",
+   "from": [
+    1.0,
+    2.1
+   ],
+   "on": [
+    "nearHand"
+   ]
+  },
+  {
+   "type": "cable",
+   "from": [
+    -1.0,
+    2.1
+   ],
+   "on": [
+    "farHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    200,
+    192
+   ],
+   "legs": {
+    "near": [
+     160,
+     176,
+     120
+    ],
+    "far": [
+     160,
+     176,
+     120
+    ]
+   },
+   "shorten": {
+    "thigh": 0.45,
+    "upperArm": 0.55,
+    "forearm": 0.55
+   }
+  },
+  {
+   "torso": 0,
+   "arms": [
+    95,
+    100
+   ],
+   "legs": {
+    "near": [
+     160,
+     176,
+     120
+    ],
+    "far": [
+     160,
+     176,
+     120
+    ]
+   },
+   "shorten": {
+    "thigh": 0.45
+   }
+  }
+ ]
+}

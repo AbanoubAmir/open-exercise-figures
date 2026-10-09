@@ -1,0 +1,33 @@
+{
+ "view": "side",
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    0.75,
+    0.12
+   ]
+  },
+  {
+   "type": "handle"
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    170,
+    172,
+    190
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    170,
+    172,
+    95
+   ]
+  }
+ ]
+}

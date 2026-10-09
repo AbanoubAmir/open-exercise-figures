@@ -1,0 +1,53 @@
+{
+ "extends": "templates/core-squat.json",
+ "poses": [
+  {
+   "torso": 0,
+   "head": 0,
+   "shorten": {
+    "upperArm": 0.25,
+    "forearm": 0.25
+   },
+   "arms": [
+    180,
+    180
+   ],
+   "legs": {
+    "near": [
+     170.2,
+     187.4,
+     95
+    ],
+    "far": [
+     170.2,
+     187.4,
+     95
+    ]
+   }
+  },
+  {
+   "torso": 88,
+   "head": 95,
+   "shorten": {
+    "upperArm": 0.25,
+    "forearm": 0.25
+   },
+   "arms": [
+    180,
+    180
+   ],
+   "legs": {
+    "near": [
+     159.3,
+     184.8,
+     95
+    ],
+    "far": [
+     159.3,
+     184.8,
+     95
+    ]
+   }
+  }
+ ]
+}

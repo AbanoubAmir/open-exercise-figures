@@ -1,0 +1,40 @@
+{
+ "extends": "templates/core-reverse-plank.json",
+ "poses": [
+  {
+   "torso": 355,
+   "head": 0,
+   "arms": [
+    192.9,
+    145.3,
+    180
+   ],
+   "legs": [
+    90,
+    90,
+    30
+   ]
+  },
+  {
+   "torso": 5,
+   "head": 5,
+   "arms": [
+    181.7,
+    181.5,
+    180
+   ],
+   "legs": [
+    84,
+    84,
+    30
+   ]
+  }
+ ],
+ "anchor": [
+  "nearWrist",
+  [
+   0.03,
+   0.13
+  ]
+ ]
+}

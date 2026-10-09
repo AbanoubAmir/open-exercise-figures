@@ -1,0 +1,64 @@
+{
+ "extends": "templates/arms-bench-wrist-curl.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    0.14,
+    0.405
+   ],
+   "length": 1.16,
+   "angle": 90
+  },
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 66,
+   "head": 95,
+   "legs": [
+    96.1,
+    185.0,
+    95
+   ],
+   "arms": {
+    "near": [
+     178.8,
+     84.6,
+     140
+    ],
+    "far": [
+     178.8,
+     84.6,
+     95
+    ]
+   }
+  },
+  {
+   "torso": 66,
+   "head": 95,
+   "legs": [
+    96.1,
+    185.0,
+    95
+   ],
+   "arms": {
+    "near": [
+     178.8,
+     84.6,
+     45
+    ],
+    "far": [
+     178.8,
+     84.6,
+     95
+    ]
+   }
+  }
+ ]
+}

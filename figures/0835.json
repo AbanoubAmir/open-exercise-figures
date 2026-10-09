@@ -1,0 +1,16 @@
+{
+ "extends": "templates/back-ball-extension.json",
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    0.0,
+    0.33
+   ]
+  },
+  {
+   "type": "plate",
+   "r": 0.13
+  }
+ ]
+}

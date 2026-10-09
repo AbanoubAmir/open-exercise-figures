@@ -1,0 +1,24 @@
+{
+ "extends": "templates/arms-seated-wrist-curl.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.12,
+    0.335
+   ],
+   "length": 0.62,
+   "angle": 90
+  },
+  {
+   "type": "cable",
+   "from": [
+    1.05,
+    0.12
+   ]
+  },
+  {
+   "type": "handle"
+  }
+ ]
+}

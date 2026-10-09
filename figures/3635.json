@@ -1,0 +1,11 @@
+{
+ "extends": "templates/legs-forward-lunge.json",
+ "equipment": [
+  {
+   "type": "dumbbell",
+   "on": [
+    "farHand"
+   ]
+  }
+ ]
+}

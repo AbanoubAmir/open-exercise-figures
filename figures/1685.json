@@ -1,0 +1,42 @@
+{
+ "extends": "templates/legs-squat.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    180,
+    180
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 35,
+   "arms": [
+    90,
+    90
+   ],
+   "legs": [
+    95,
+    210,
+    95
+   ],
+   "head": 20
+  },
+  {
+   "torso": 0,
+   "arms": [
+    0,
+    0
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  }
+ ]
+}

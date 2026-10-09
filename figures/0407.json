@@ -1,0 +1,51 @@
+{
+ "extends": "templates/core-side-bend.json",
+ "equipment": [
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "head": 0,
+   "arms": {
+    "near": [
+     180.0,
+     180.0
+    ],
+    "far": [
+     180.0,
+     180.0
+    ]
+   },
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": -26,
+   "head": -26,
+   "arms": {
+    "near": [
+     169.6,
+     172.2
+    ],
+    "far": [
+     190.4,
+     187.8
+    ]
+   },
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  }
+ ]
+}

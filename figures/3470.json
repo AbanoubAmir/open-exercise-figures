@@ -1,0 +1,38 @@
+{
+ "extends": "templates/legs-forward-lunge.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    205,
+    110,
+    110
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 2,
+   "arms": [
+    205,
+    110,
+    110
+   ],
+   "legs": {
+    "near": [
+     90,
+     180.0,
+     95
+    ],
+    "far": [
+     185,
+     285,
+     175
+    ]
+   }
+  }
+ ]
+}

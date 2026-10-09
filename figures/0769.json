@@ -1,0 +1,62 @@
+{
+ "extends": "templates/legs-bulgarian-split-squat.json",
+ "equipment": [
+  {
+   "type": "rails",
+   "at": [
+    -0.62,
+    0
+   ],
+   "h": 1.6
+  },
+  {
+   "type": "barbell",
+   "on": [
+    "farToe"
+   ],
+   "r": 0.13
+  }
+ ],
+ "poses": [
+  {
+   "torso": 1,
+   "arms": [
+    205,
+    110,
+    110
+   ],
+   "legs": {
+    "near": [
+     182.1,
+     172.0,
+     95
+    ],
+    "far": [
+     221.1,
+     256.0,
+     255
+    ]
+   }
+  },
+  {
+   "torso": 4,
+   "arms": [
+    205,
+    110,
+    110
+   ],
+   "legs": {
+    "near": [
+     123.9,
+     166.5,
+     95
+    ],
+    "far": [
+     167.0,
+     297.0,
+     255
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "extends": "templates/core-reverse-crunch.json",
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    -1.5,
+    0.12
+   ],
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "head": 270,
+   "arms": [
+    330,
+    330
+   ],
+   "legs": [
+    2,
+    92,
+    40
+   ]
+  },
+  {
+   "torso": 238,
+   "head": 270,
+   "arms": [
+    330,
+    330
+   ],
+   "legs": [
+    318,
+    60,
+    10
+   ]
+  }
+ ]
+}

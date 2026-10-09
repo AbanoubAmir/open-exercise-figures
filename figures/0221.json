@@ -1,0 +1,70 @@
+{
+ "extends": "templates/core-side-bend.json",
+ "poses": [
+  {
+   "torso": -8,
+   "head": -8,
+   "arms": {
+    "near": [
+     180,
+     180
+    ],
+    "far": [
+     210,
+     330
+    ]
+   },
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 26,
+   "head": 26,
+   "arms": {
+    "near": [
+     190,
+     185
+    ],
+    "far": [
+     235,
+     345
+    ]
+   },
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  }
+ ],
+ "anchor": [
+  "hip",
+  [
+   0.0,
+   1.3
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "bosu",
+   "at": [
+    0,
+    0.0
+   ],
+   "r": 0.36
+  },
+  {
+   "type": "cable",
+   "from": [
+    0.8,
+    0.15
+   ],
+   "on": [
+    "nearHand"
+   ]
+  }
+ ]
+}

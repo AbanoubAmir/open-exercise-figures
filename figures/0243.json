@@ -1,0 +1,63 @@
+{
+ "extends": "templates/core-standing-twist.json",
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    -0.9,
+    1.25
+   ],
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": -4,
+   "head": -4,
+   "shorten": {
+    "upperArm": 0.75,
+    "forearm": 0.75
+   },
+   "arms": {
+    "near": [
+     242.5,
+     242.7
+    ],
+    "far": [
+     191.1,
+     91.89999999999998
+    ]
+   },
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 4,
+   "head": 4,
+   "shorten": {
+    "upperArm": 0.75,
+    "forearm": 0.75
+   },
+   "arms": {
+    "near": [
+     173.2,
+     91.1
+    ],
+    "far": [
+     245.5,
+     245.7
+    ]
+   },
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  }
+ ]
+}

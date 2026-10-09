@@ -1,0 +1,15 @@
+{
+ "extends": "templates/legs-deadlift.json",
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    0.75,
+    0.08
+   ]
+  },
+  {
+   "type": "handle"
+  }
+ ]
+}

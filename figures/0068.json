@@ -1,0 +1,55 @@
+{
+ "extends": "templates/legs-single-leg-squat.json",
+ "equipment": [
+  {
+   "type": "barbell",
+   "on": [
+    "nearWrist"
+   ],
+   "r": 0.15
+  }
+ ],
+ "poses": [
+  {
+   "torso": 3,
+   "arms": [
+    215,
+    15,
+    15
+   ],
+   "legs": {
+    "near": [
+     180,
+     180,
+     95
+    ],
+    "far": [
+     100,
+     100,
+     10
+    ]
+   }
+  },
+  {
+   "torso": 38,
+   "arms": [
+    222,
+    20,
+    20
+   ],
+   "legs": {
+    "near": [
+     95,
+     212,
+     95
+    ],
+    "far": [
+     80,
+     80,
+     350
+    ]
+   },
+   "head": 20
+  }
+ ]
+}

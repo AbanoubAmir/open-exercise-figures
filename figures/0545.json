@@ -1,0 +1,88 @@
+{
+ "view": "side",
+ "anchor": [
+  "nearToe",
+  [
+   -0.6,
+   0.02
+  ]
+ ],
+ "poses": [
+  {
+   "torso": 65.0,
+   "head": 69.0,
+   "legs": [
+    245.0,
+    245.0,
+    185
+   ],
+   "arms": [
+    175,
+    178,
+    90
+   ],
+   "props": [
+    {
+     "chain": 0.128
+    }
+   ],
+   "shorten": {},
+   "lift": 0.01
+  },
+  {
+   "torso": 85.0,
+   "head": 89.0,
+   "legs": [
+    265.0,
+    265.0,
+    185
+   ],
+   "arms": [
+    295,
+    135,
+    90
+   ],
+   "shorten": {
+    "upperArm": 0.75
+   },
+   "props": [
+    {
+     "chain": 0.129
+    }
+   ],
+   "lift": 0.01
+  },
+  {
+   "torso": 55.7,
+   "head": 59.7,
+   "legs": [
+    235.7,
+    235.7,
+    185
+   ],
+   "arms": [
+    170,
+    175,
+    150
+   ],
+   "props": [
+    {
+     "chain": 0.328
+    }
+   ],
+   "shorten": {},
+   "lift": 0.01
+  }
+ ],
+ "equipment": [
+  {
+   "type": "hanging",
+   "on": [
+    "nearWrist",
+    "farWrist"
+   ],
+   "chain": 0.13,
+   "r": 0.1
+  }
+ ]
+}

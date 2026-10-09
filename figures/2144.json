@@ -1,0 +1,33 @@
+{
+ "extends": "templates/chest-machine-press.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    0.0,
+    0.4
+   ],
+   "length": 0.42,
+   "angle": 90
+  },
+  {
+   "type": "bench",
+   "at": [
+    -0.21,
+    0.98
+   ],
+   "length": 0.72,
+   "angle": 175
+  },
+  {
+   "type": "cable",
+   "from": [
+    -0.75,
+    1.0
+   ]
+  },
+  {
+   "type": "handle"
+  }
+ ]
+}

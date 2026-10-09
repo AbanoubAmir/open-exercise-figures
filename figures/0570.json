@@ -1,0 +1,43 @@
+{
+ "extends": "templates/core-seated-crunch.json",
+ "poses": [
+  {
+   "torso": 335,
+   "head": 335,
+   "arms": [
+    189.3,
+    168.8,
+    180
+   ],
+   "legs": [
+    102,
+    102,
+    70
+   ]
+  },
+  {
+   "torso": 350,
+   "head": 350,
+   "arms": [
+    192.7,
+    192.5,
+    180
+   ],
+   "legs": [
+    25,
+    150,
+    110
+   ]
+  }
+ ],
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.1,
+    0.42
+   ],
+   "length": 0.8
+  }
+ ]
+}

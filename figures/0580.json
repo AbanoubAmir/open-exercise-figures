@@ -1,0 +1,45 @@
+{
+ "view": "side",
+ "equipment": [
+  {
+   "type": "lever",
+   "from": [
+    -0.75,
+    1.15
+   ],
+   "on": [
+    "nearShoulder"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    182,
+    182
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    182,
+    182
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ],
+   "shorten": {
+    "torso": 1.18,
+    "neck": 0.1
+   }
+  }
+ ]
+}

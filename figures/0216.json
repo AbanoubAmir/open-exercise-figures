@@ -1,0 +1,68 @@
+{
+ "extends": "templates/sh-seat-lateral-front.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    0,
+    0.4
+   ],
+   "length": 0.5,
+   "angle": 90
+  },
+  {
+   "type": "cable",
+   "from": [
+    0.85,
+    0.8
+   ],
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": {
+    "near": [
+     180,
+     92
+    ],
+    "far": [
+     165,
+     200
+    ]
+   },
+   "legs": [
+    172,
+    180,
+    120
+   ],
+   "shorten": {
+    "thigh": 0.15
+   }
+  },
+  {
+   "torso": 0,
+   "arms": {
+    "near": [
+     180,
+     268
+    ],
+    "far": [
+     165,
+     200
+    ]
+   },
+   "legs": [
+    172,
+    180,
+    120
+   ],
+   "shorten": {
+    "thigh": 0.15
+   }
+  }
+ ]
+}

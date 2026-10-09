@@ -1,0 +1,41 @@
+{
+ "extends": "templates/tri-seated-overhead-extension.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": {
+    "near": [
+     4,
+     4
+    ],
+    "far": [
+     180,
+     175
+    ]
+   },
+   "legs": [
+    92,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": {
+    "near": [
+     356,
+     215
+    ],
+    "far": [
+     180,
+     175
+    ]
+   },
+   "legs": [
+    92,
+    180,
+    95
+   ]
+  }
+ ]
+}

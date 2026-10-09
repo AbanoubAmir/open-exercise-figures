@@ -1,0 +1,17 @@
+{
+ "extends": "templates/sh-seat-press-front.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    0,
+    0.4
+   ],
+   "length": 0.5,
+   "angle": 90
+  },
+  {
+   "type": "kettlebell"
+  }
+ ]
+}

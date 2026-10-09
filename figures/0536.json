@@ -1,0 +1,45 @@
+{
+ "extends": "templates/legs-forward-lunge.json",
+ "equipment": [
+  {
+   "type": "kettlebell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    165,
+    20,
+    20
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 2,
+   "arms": [
+    150,
+    175
+   ],
+   "legs": {
+    "near": [
+     90,
+     180.0,
+     95
+    ],
+    "far": [
+     185,
+     285,
+     175
+    ]
+   }
+  }
+ ]
+}

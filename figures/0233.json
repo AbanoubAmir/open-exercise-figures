@@ -1,0 +1,47 @@
+{
+ "view": "side",
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    1.0,
+    1.45
+   ],
+   "on": [
+    "nearHand"
+   ]
+  },
+  {
+   "type": "handle"
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    95,
+    92
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    95,
+    30
+   ],
+   "legs": [
+    180,
+    180,
+    95
+   ],
+   "shorten": {
+    "upperArm": 0.35
+   }
+  }
+ ]
+}

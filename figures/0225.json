@@ -1,0 +1,51 @@
+{
+ "extends": "templates/dumbbell-lateral-raise.json",
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    -0.9,
+    1.6
+   ],
+   "on": [
+    "nearHand"
+   ]
+  },
+  {
+   "type": "cable",
+   "from": [
+    0.9,
+    1.6
+   ],
+   "on": [
+    "farHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    255,
+    262
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    92,
+    95
+   ],
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  }
+ ]
+}

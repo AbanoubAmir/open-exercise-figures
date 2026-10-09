@@ -1,0 +1,12 @@
+{
+ "extends": "templates/tri-bar-dip.json",
+ "equipment": [
+  {
+   "type": "rope",
+   "from": [
+    0,
+    2.45
+   ]
+  }
+ ]
+}

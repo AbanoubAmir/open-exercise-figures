@@ -1,0 +1,59 @@
+{
+ "extends": "templates/tri-ball-press.json",
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    -0.42,
+    0.22
+   ],
+   "r": 0.22
+  },
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 268,
+   "head": 268,
+   "arms": {
+    "near": [
+     2,
+     2
+    ],
+    "far": [
+     95,
+     90
+    ]
+   },
+   "legs": [
+    98,
+    174,
+    95
+   ]
+  },
+  {
+   "torso": 268,
+   "head": 268,
+   "arms": {
+    "near": [
+     100,
+     5
+    ],
+    "far": [
+     95,
+     90
+    ]
+   },
+   "legs": [
+    98,
+    174,
+    95
+   ]
+  }
+ ]
+}

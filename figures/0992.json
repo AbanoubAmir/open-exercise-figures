@@ -1,0 +1,43 @@
+{
+ "extends": "templates/core-situp.json",
+ "equipment": [
+  {
+   "type": "band",
+   "from": [
+    -1.05,
+    0.04
+   ],
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "head": 275,
+   "arms": [
+    0,
+    0
+   ],
+   "legs": [
+    42.9,
+    142.7,
+    95
+   ]
+  },
+  {
+   "torso": 318,
+   "head": 343,
+   "arms": [
+    25,
+    25
+   ],
+   "legs": [
+    42.9,
+    142.7,
+    95
+   ]
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "extends": "templates/tri-bench-dip.json",
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    -0.4,
+    0.3
+   ],
+   "r": 0.3
+  }
+ ],
+ "anchor": [
+  "nearWrist",
+  [
+   -0.24,
+   0.63
+  ]
+ ],
+ "poses": [
+  {
+   "torso": 3,
+   "head": 3,
+   "arms": [
+    192,
+    186,
+    90
+   ],
+   "legs": [
+    112.6,
+    156.4,
+    95
+   ]
+  },
+  {
+   "torso": 5,
+   "head": 5,
+   "arms": [
+    240,
+    150,
+    90
+   ],
+   "legs": [
+    86.5,
+    165.0,
+    95
+   ]
+  }
+ ]
+}

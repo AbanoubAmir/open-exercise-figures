@@ -1,0 +1,13 @@
+{
+ "extends": "templates/core-plank.json",
+ "equipment": [
+  {
+   "type": "hanging",
+   "on": [
+    "hip"
+   ],
+   "chain": -0.15,
+   "r": 0.11
+  }
+ ]
+}

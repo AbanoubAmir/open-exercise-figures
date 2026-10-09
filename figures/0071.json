@@ -1,0 +1,40 @@
+{
+ "extends": "templates/core-situp.json",
+ "equipment": [
+  {
+   "type": "barbell",
+   "on": [
+    "nearHand"
+   ],
+   "r": 0.15
+  }
+ ],
+ "poses": [
+  {
+   "torso": 270,
+   "head": 275,
+   "arms": [
+    75,
+    290
+   ],
+   "legs": [
+    42.9,
+    142.7,
+    95
+   ]
+  },
+  {
+   "torso": 318,
+   "head": 343,
+   "arms": [
+    15,
+    15
+   ],
+   "legs": [
+    42.9,
+    142.7,
+    95
+   ]
+  }
+ ]
+}

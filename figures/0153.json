@@ -1,0 +1,58 @@
+{
+ "view": "front",
+ "anchor": [
+  "hip",
+  [
+   0,
+   0.97
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "cable",
+   "from": [
+    1.05,
+    2.35
+   ],
+   "on": [
+    "nearHand"
+   ]
+  },
+  {
+   "type": "cable",
+   "from": [
+    -1.05,
+    2.35
+   ],
+   "on": [
+    "farHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    42,
+    40
+   ],
+   "legs": [
+    176,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    150,
+    30
+   ],
+   "legs": [
+    176,
+    180,
+    120
+   ]
+  }
+ ]
+}

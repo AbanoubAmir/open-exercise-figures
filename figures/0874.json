@@ -1,0 +1,15 @@
+{
+ "extends": "templates/core-cable-standing-crunch.json",
+ "equipment": [
+  {
+   "type": "rope",
+   "from": [
+    -0.6,
+    1.45
+   ],
+   "on": [
+    "nearHand"
+   ]
+  }
+ ]
+}

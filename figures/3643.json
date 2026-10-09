@@ -1,0 +1,57 @@
+{
+ "extends": "templates/legs-lateral-lunge-front.json",
+ "equipment": [
+  {
+   "type": "plate",
+   "on": [
+    "nearHand"
+   ],
+   "r": 0.13
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    160,
+    330,
+    330
+   ],
+   "legs": {
+    "near": [
+     147.8,
+     157.0,
+     120
+    ],
+    "far": [
+     140.5,
+     175.0,
+     120
+    ]
+   }
+  },
+  {
+   "torso": 10,
+   "arms": [
+    160,
+    330,
+    330
+   ],
+   "legs": {
+    "near": [
+     105.9,
+     209.6,
+     120
+    ],
+    "far": [
+     135.0,
+     126.0,
+     60
+    ]
+   },
+   "shorten": {
+    "thigh": 0.8
+   }
+  }
+ ]
+}

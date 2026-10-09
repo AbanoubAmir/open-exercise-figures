@@ -1,0 +1,123 @@
+{
+ "extends": "templates/core-standing-twist.json",
+ "equipment": [
+  {
+   "type": "lever",
+   "from": [
+    0,
+    0.05
+   ],
+   "on": [
+    "nearHand"
+   ]
+  },
+  {
+   "type": "plate",
+   "on": [
+    "nearHand"
+   ],
+   "r": 0.14
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "head": 0,
+   "shorten": {
+    "upperArm": 0.9,
+    "forearm": 0.9
+   },
+   "arms": {
+    "near": [
+     171.2,
+     290.0
+    ],
+    "far": [
+     171.2,
+     290.0
+    ]
+   },
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": 6,
+   "head": 6,
+   "shorten": {
+    "upperArm": 0.75,
+    "forearm": 0.75
+   },
+   "arms": {
+    "near": [
+     156.5,
+     156.4
+    ],
+    "far": [
+     225.4,
+     225.5
+    ]
+   },
+   "legs": {
+    "near": [
+     175,
+     180,
+     120
+    ],
+    "far": [
+     180,
+     180,
+     120
+    ]
+   }
+  },
+  {
+   "torso": 0,
+   "head": 0,
+   "shorten": {
+    "upperArm": 0.9,
+    "forearm": 0.9
+   },
+   "arms": {
+    "near": [
+     171.2,
+     290.0
+    ],
+    "far": [
+     171.2,
+     290.0
+    ]
+   },
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  },
+  {
+   "torso": -6,
+   "head": -6,
+   "shorten": {
+    "upperArm": 0.75,
+    "forearm": 0.75
+   },
+   "arms": {
+    "near": [
+     225.4,
+     225.5
+    ],
+    "far": [
+     156.5,
+     156.4
+    ]
+   },
+   "legs": [
+    180,
+    180,
+    120
+   ]
+  }
+ ]
+}

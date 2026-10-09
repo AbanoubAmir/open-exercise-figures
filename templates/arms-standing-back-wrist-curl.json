@@ -1,0 +1,27 @@
+{
+ "view": "side",
+ "equipment": [
+  {
+   "type": "barbell",
+   "r": 0.1
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    194,
+    192,
+    180
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    194,
+    192,
+    265
+   ]
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "extends": "templates/sh-bent-rear-fly.json",
+ "equipment": [
+  {
+   "type": "barbell",
+   "r": 0.12
+  }
+ ],
+ "poses": [
+  {
+   "torso": 72,
+   "head": 70,
+   "legs": [
+    165,
+    192,
+    95
+   ],
+   "arms": [
+    180,
+    180
+   ]
+  },
+  {
+   "torso": 72,
+   "head": 70,
+   "legs": [
+    165,
+    192,
+    95
+   ],
+   "arms": [
+    232,
+    230
+   ]
+  }
+ ]
+}

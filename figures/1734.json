@@ -1,0 +1,51 @@
+{
+ "extends": "templates/tri-seated-kickback.json",
+ "anchor": [
+  "hip",
+  [
+   0,
+   0.69
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    -0.05,
+    0.3
+   ],
+   "r": 0.3
+  },
+  {
+   "type": "dumbbell"
+  }
+ ],
+ "poses": [
+  {
+   "torso": 40,
+   "head": 50,
+   "arms": [
+    202,
+    165
+   ],
+   "legs": [
+    114,
+    170,
+    95
+   ]
+  },
+  {
+   "torso": 40,
+   "head": 50,
+   "arms": [
+    208,
+    208
+   ],
+   "legs": [
+    114,
+    170,
+    95
+   ]
+  }
+ ]
+}

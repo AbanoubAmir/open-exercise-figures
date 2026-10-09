@@ -1,0 +1,63 @@
+{
+ "extends": "templates/core-hanging-knee-raise.json",
+ "poses": [
+  {
+   "torso": -4,
+   "head": -4,
+   "arms": [
+    356,
+    356
+   ],
+   "legs": [
+    180,
+    180,
+    150
+   ]
+  },
+  {
+   "torso": -14,
+   "head": -14,
+   "shorten": {
+    "thigh": 0.75
+   },
+   "arms": [
+    12,
+    12
+   ],
+   "legs": [
+    40,
+    165,
+    130
+   ]
+  },
+  {
+   "torso": -4,
+   "head": -4,
+   "arms": [
+    356,
+    356
+   ],
+   "legs": [
+    180,
+    180,
+    150
+   ]
+  },
+  {
+   "torso": -14,
+   "head": -14,
+   "shorten": {
+    "thigh": 0.75
+   },
+   "arms": [
+    12,
+    12
+   ],
+   "legs": [
+    40,
+    165,
+    130
+   ]
+  }
+ ]
+}

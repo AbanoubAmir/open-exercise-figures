@@ -1,0 +1,56 @@
+{
+ "extends": "templates/arms-seated-neck-flexion.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.12,
+    0.335
+   ],
+   "length": 0.62,
+   "angle": 90
+  },
+  {
+   "type": "cable",
+   "from": [
+    0.95,
+    0.2
+   ],
+   "on": [
+    "head"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "neck": 18,
+   "head": 55,
+   "legs": [
+    90.1,
+    176.0,
+    95
+   ],
+   "arms": [
+    137.3,
+    137.1,
+    95
+   ]
+  },
+  {
+   "torso": 0,
+   "neck": 0,
+   "head": -5,
+   "legs": [
+    90.1,
+    176.0,
+    95
+   ],
+   "arms": [
+    137.3,
+    137.1,
+    95
+   ]
+  }
+ ]
+}

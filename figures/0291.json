@@ -1,0 +1,19 @@
+{
+ "extends": "templates/legs-goblet-squat.json",
+ "equipment": [
+  {
+   "type": "bench",
+   "at": [
+    -0.28,
+    0.33
+   ],
+   "length": 0.5
+  },
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearWrist"
+   ]
+  }
+ ]
+}

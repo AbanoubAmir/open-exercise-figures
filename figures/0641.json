@@ -1,0 +1,12 @@
+{
+ "extends": "templates/core-situp.json",
+ "equipment": [
+  {
+   "type": "plate",
+   "on": [
+    "nearHand"
+   ],
+   "r": 0.13
+  }
+ ]
+}

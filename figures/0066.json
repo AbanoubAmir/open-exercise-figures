@@ -1,0 +1,51 @@
+{
+ "extends": "templates/legs-deadlift.json",
+ "equipment": [
+  {
+   "type": "barbell",
+   "r": 0.15,
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": {
+    "near": [
+     180,
+     180
+    ],
+    "far": [
+     180,
+     180
+    ]
+   },
+   "legs": [
+    180,
+    180,
+    95
+   ]
+  },
+  {
+   "torso": 66.9,
+   "arms": {
+    "near": [
+     180,
+     180
+    ],
+    "far": [
+     200,
+     200
+    ]
+   },
+   "legs": [
+    123.4,
+    200,
+    95
+   ],
+   "head": 45
+  }
+ ]
+}

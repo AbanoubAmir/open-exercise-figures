@@ -1,0 +1,47 @@
+{
+ "extends": "templates/chest-dip.json",
+ "anchor": [
+  "nearWrist",
+  [
+   0,
+   1.45
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "parallelBars",
+   "at": [
+    0,
+    1.45
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 15,
+   "arms": [
+    180,
+    180,
+    90
+   ],
+   "legs": [
+    180,
+    185,
+    160
+   ]
+  },
+  {
+   "torso": 42,
+   "arms": [
+    273.5,
+    173.2,
+    90
+   ],
+   "legs": [
+    180,
+    185,
+    160
+   ]
+  }
+ ]
+}

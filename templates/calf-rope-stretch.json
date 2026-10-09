@@ -1,0 +1,50 @@
+{
+ "view": "side",
+ "anchor": [
+  "hip",
+  [
+   0,
+   0.12
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "rope",
+   "from": "nearToe",
+   "on": [
+    "nearHand",
+    "farHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 8,
+   "head": 18,
+   "legs": [
+    90,
+    90,
+    40
+   ],
+   "arms": [
+    167.0,
+    68.3,
+    90
+   ]
+  },
+  {
+   "torso": -4,
+   "head": 6,
+   "legs": [
+    90,
+    90,
+    -12
+   ],
+   "arms": [
+    181.8,
+    66.5,
+    90
+   ]
+  }
+ ]
+}

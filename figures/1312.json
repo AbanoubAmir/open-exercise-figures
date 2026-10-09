@@ -1,0 +1,50 @@
+{
+ "extends": "templates/chest-standing-press.json",
+ "anchor": [
+  "farToe",
+  [
+   0,
+   0.02
+  ]
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "legs": {
+    "near": [
+     180,
+     180,
+     95
+    ],
+    "far": [
+     180,
+     180,
+     95
+    ]
+   },
+   "arms": [
+    166.9,
+    31.9
+   ]
+  },
+  {
+   "torso": 12,
+   "legs": {
+    "near": [
+     150,
+     195,
+     95
+    ],
+    "far": [
+     205,
+     215,
+     135
+    ]
+   },
+   "arms": [
+    103.4,
+    83.2
+   ]
+  }
+ ]
+}

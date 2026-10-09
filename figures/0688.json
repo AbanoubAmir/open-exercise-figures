@@ -1,0 +1,33 @@
+{
+ "extends": "templates/back-pull-up.json",
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    25.4,
+    25.1
+   ],
+   "legs": [
+    178,
+    184,
+    140
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": [
+    25.4,
+    25.1
+   ],
+   "legs": [
+    178,
+    184,
+    140
+   ],
+   "shorten": {
+    "upperArm": 0.7,
+    "neck": 0.6
+   }
+  }
+ ]
+}

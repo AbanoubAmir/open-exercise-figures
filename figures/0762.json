@@ -1,0 +1,44 @@
+{
+ "extends": "templates/sh-bent-rear-row.json",
+ "equipment": [
+  {
+   "type": "rails",
+   "at": [
+    0.36,
+    0
+   ]
+  },
+  {
+   "type": "barbell",
+   "r": 0.12
+  }
+ ],
+ "poses": [
+  {
+   "torso": 72,
+   "head": 70,
+   "legs": [
+    165,
+    192,
+    95
+   ],
+   "arms": [
+    198,
+    176
+   ]
+  },
+  {
+   "torso": 72,
+   "head": 70,
+   "legs": [
+    165,
+    192,
+    95
+   ],
+   "arms": [
+    252,
+    150
+   ]
+  }
+ ]
+}

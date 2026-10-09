@@ -1,0 +1,25 @@
+{
+ "extends": "templates/chest-incline-fly.json",
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    0.14,
+    0.3
+   ],
+   "r": 0.3
+  },
+  {
+   "type": "bench",
+   "at": [
+    -0.143,
+    0.701
+   ],
+   "length": 0.8,
+   "angle": 135
+  },
+  {
+   "type": "dumbbell"
+  }
+ ]
+}

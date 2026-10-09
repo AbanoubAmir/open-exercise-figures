@@ -1,0 +1,63 @@
+{
+ "extends": "templates/core-hanging-knee-raise.json",
+ "equipment": [
+  {
+   "type": "pullupBar",
+   "at": [
+    0.0,
+    2.35
+   ]
+  },
+  {
+   "type": "band",
+   "from": [
+    0.0,
+    2.35
+   ],
+   "on": [
+    "nearKnee"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": -4,
+   "head": -4,
+   "arms": [
+    356,
+    356
+   ],
+   "legs": [
+    180,
+    180,
+    150
+   ]
+  },
+  {
+   "torso": -14,
+   "head": -14,
+   "arms": [
+    12,
+    12
+   ],
+   "legs": [
+    30,
+    165,
+    130
+   ]
+  },
+  {
+   "torso": 8,
+   "head": 8,
+   "arms": [
+    350,
+    350
+   ],
+   "legs": [
+    200,
+    200,
+    170
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "extends": "templates/chest-cable-fly.json",
+ "equipment": [],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": [
+    200,
+    186
+   ],
+   "legs": [
+    178,
+    182,
+    120
+   ],
+   "shorten": {
+    "upperArm": 0.55,
+    "forearm": 0.55
+   }
+  },
+  {
+   "torso": 0,
+   "arms": [
+    214,
+    200
+   ],
+   "legs": [
+    172,
+    190,
+    120
+   ],
+   "shorten": {
+    "upperArm": 0.55,
+    "forearm": 0.55
+   }
+  }
+ ]
+}

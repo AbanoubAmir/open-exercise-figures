@@ -1,0 +1,54 @@
+{
+ "extends": "templates/legs-split-squat.json",
+ "equipment": [
+  {
+   "type": "barbell",
+   "on": [
+    "nearWrist"
+   ],
+   "r": 0.15
+  }
+ ],
+ "poses": [
+  {
+   "torso": 1,
+   "arms": [
+    215,
+    15,
+    15
+   ],
+   "legs": {
+    "near": [
+     125.0,
+     175,
+     95
+    ],
+    "far": [
+     209.5,
+     238.1,
+     140
+    ]
+   }
+  },
+  {
+   "torso": 2,
+   "arms": [
+    222,
+    20,
+    20
+   ],
+   "legs": {
+    "near": [
+     90.8,
+     181.2,
+     95
+    ],
+    "far": [
+     185,
+     285,
+     175
+    ]
+   }
+  }
+ ]
+}

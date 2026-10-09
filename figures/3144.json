@@ -1,0 +1,43 @@
+{
+ "view": "side",
+ "anchor": [
+  "hip",
+  [
+   0,
+   0.11
+  ]
+ ],
+ "equipment": [
+  {
+   "type": "band",
+   "from": "nearToe"
+  }
+ ],
+ "poses": [
+  {
+   "torso": 20,
+   "head": 15,
+   "arms": [
+    92,
+    95
+   ],
+   "legs": [
+    88,
+    95,
+    15
+   ]
+  },
+  {
+   "torso": -8,
+   "arms": [
+    212,
+    96
+   ],
+   "legs": [
+    88,
+    95,
+    15
+   ]
+  }
+ ]
+}

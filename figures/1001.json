@@ -1,0 +1,54 @@
+{
+ "extends": "templates/legs-split-squat.json",
+ "equipment": [
+  {
+   "type": "band",
+   "from": "farAnkle",
+   "on": [
+    "nearAnkle"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 1,
+   "arms": [
+    205,
+    110,
+    110
+   ],
+   "legs": {
+    "near": [
+     125.0,
+     175,
+     95
+    ],
+    "far": [
+     209.5,
+     238.1,
+     140
+    ]
+   }
+  },
+  {
+   "torso": 2,
+   "arms": [
+    205,
+    110,
+    110
+   ],
+   "legs": {
+    "near": [
+     90.8,
+     181.2,
+     95
+    ],
+    "far": [
+     185,
+     285,
+     175
+    ]
+   }
+  }
+ ]
+}

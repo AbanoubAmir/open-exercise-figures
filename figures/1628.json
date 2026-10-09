@@ -1,0 +1,27 @@
+{
+ "extends": "templates/bi-spider-curl.json",
+ "equipment": [
+  {
+   "type": "rails",
+   "at": [
+    0.51,
+    0
+   ],
+   "h": 0.942
+  },
+  {
+   "type": "pad",
+   "at": [
+    0.51,
+    1.042
+   ],
+   "w": 0.5,
+   "h": 0.1,
+   "angle": 40.0
+  },
+  {
+   "type": "barbell",
+   "r": 0.15
+  }
+ ]
+}

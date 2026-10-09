@@ -1,0 +1,31 @@
+{
+ "extends": "templates/core-lever-crunch.json",
+ "poses": [
+  {
+   "torso": 350,
+   "head": 350,
+   "arms": [
+    150,
+    0
+   ],
+   "legs": [
+    95.8,
+    171.7,
+    95
+   ]
+  },
+  {
+   "torso": 45,
+   "head": 55,
+   "arms": [
+    205,
+    55
+   ],
+   "legs": [
+    95.8,
+    171.7,
+    95
+   ]
+  }
+ ]
+}

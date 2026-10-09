@@ -1,0 +1,57 @@
+{
+ "extends": "templates/tri-ball-overhead-extension.json",
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    -0.05,
+    0.3
+   ],
+   "r": 0.3
+  },
+  {
+   "type": "dumbbell",
+   "on": [
+    "nearHand"
+   ]
+  }
+ ],
+ "poses": [
+  {
+   "torso": 0,
+   "arms": {
+    "near": [
+     4,
+     4
+    ],
+    "far": [
+     180,
+     175
+    ]
+   },
+   "legs": [
+    114,
+    170,
+    95
+   ]
+  },
+  {
+   "torso": 0,
+   "arms": {
+    "near": [
+     358,
+     200
+    ],
+    "far": [
+     180,
+     175
+    ]
+   },
+   "legs": [
+    114,
+    170,
+    95
+   ]
+  }
+ ]
+}

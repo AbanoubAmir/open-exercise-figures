@@ -1,0 +1,16 @@
+{
+ "extends": "templates/bi-ball-curl.json",
+ "equipment": [
+  {
+   "type": "ball",
+   "at": [
+    -0.05,
+    0.33
+   ],
+   "r": 0.33
+  },
+  {
+   "type": "medicineBall"
+  }
+ ]
+}

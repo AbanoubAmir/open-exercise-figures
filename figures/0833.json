@@ -1,0 +1,31 @@
+{
+ "extends": "templates/calf-donkey-raise.json",
+ "equipment": [
+  {
+   "type": "box",
+   "at": [
+    0.2,
+    0
+   ],
+   "w": 0.3,
+   "h": 0.12
+  },
+  {
+   "type": "box",
+   "at": [
+    0.78,
+    0
+   ],
+   "w": 0.34,
+   "h": 0.68
+  },
+  {
+   "type": "hanging",
+   "on": [
+    "hip"
+   ],
+   "chain": 0.35,
+   "r": 0.11
+  }
+ ]
+}

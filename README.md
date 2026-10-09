@@ -1,0 +1,1 @@
+# open-exercise-figures

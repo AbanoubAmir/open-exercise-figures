@@ -699,8 +699,8 @@
    "الترايسبس",
    "المجانص"
   ],
-  "equipment": "dumbbell, exercise ball",
-  "equipment_ar": "دمبل وكورة توازن",
+  "equipment": "dumbbell",
+  "equipment_ar": "دمبل",
   "description": "A classic dumbbell pullover done across an exercise ball. The weight moves in an arc over and behind the head, stretching and working the chest and lats.",
   "description_ar": "بول أوفر كلاسيك بالدمبل على كورة توازن. الوزن بيتحرك في قوس فوق راسك ولورا، وبيعمل إطالة وشغل للصدر والمجانص.",
   "instructions": [
@@ -1958,8 +1958,8 @@
  },
  {
   "id": "3223",
-  "name": "Star Jump (male)",
-  "name_ar": "نطة النجمة (رجالي)",
+  "name": "Star Jump",
+  "name_ar": "نطة النجمة",
   "category": "cardio",
   "category_ar": "كارديو",
   "difficulty": "beginner",
@@ -3393,8 +3393,8 @@
   "secondary_muscles_ar": [
    "الكتف"
   ],
-  "equipment": "ez barbell, exercise ball",
-  "equipment_ar": "بار زجزاج وكورة توازن",
+  "equipment": "ez barbell",
+  "equipment_ar": "بار زجزاج",
   "description": "A lying triceps extension with an EZ bar, performed with your upper back on an exercise ball. The angled grip is easy on the wrists, and the ball adds a balance challenge for the core and hips.",
   "description_ar": "ترايسبس فرنساوي بالبار الزجزاج وأعلى ظهرك على كورة التوازن. المسكة المايلة مريحة للرسغ، والكورة بتزوّد تحدي التوازن للبطن والحوض.",
   "instructions": [
@@ -5350,8 +5350,8 @@
    "السواعد",
    "الكتف"
   ],
-  "equipment": "dumbbell, exercise ball",
-  "equipment_ar": "دمبل وكورة توازن",
+  "equipment": "dumbbell",
+  "equipment_ar": "دمبل",
   "description": "An alternating dumbbell curl done sitting on an exercise ball with one foot lifted off the floor. The biceps do the curling while your core, hips and shoulders work hard to keep you balanced.",
   "description_ar": "بايسبس بالتبادل بالدمبل وانت قاعد على كورة التوازن ورجل واحدة مرفوعة من على الأرض. البايسبس بيعمل الرفع، وبطنك وحوضك وكتافك بيشتغلوا جامد عشان توازنك.",
   "instructions": [
@@ -8181,8 +8181,8 @@
  },
  {
   "id": "3218",
-  "name": "Hands Clasped Circular Toe Touch (male)",
-  "name_ar": "لمس صوابع الرجل بدواير وإيديك مشبوكة (رجالي)",
+  "name": "Hands Clasped Circular Toe Touch",
+  "name_ar": "لمس صوابع الرجل بدواير وإيديك مشبوكة",
   "category": "mobility",
   "category_ar": "مرونة وحركة",
   "difficulty": "beginner",
@@ -10512,8 +10512,8 @@
    "الفخذ الخلفي",
    "الفخذ الأمامي"
   ],
-  "equipment": "body weight (with resistance band)",
-  "equipment_ar": "وزن الجسم وأستك مقاومة",
+  "equipment": "band",
+  "equipment_ar": "أستك مقاومة",
   "description": "A walking drill with a resistance band around your legs, taking wide, diagonal steps in a half squat. It strengthens the side glutes and outer hips that keep your knees from caving in.",
   "description_ar": "مشية المونستر: بتمشي وأستك مقاومة حوالين رجليك، بخطوات واسعة ومايلة وانت نازل نص سكوات. بتقوّي الجلوتس الجانبي والفخذ الخارجي اللي بيمنعوا ركبك تقع لجوه.",
   "instructions": [
@@ -11053,8 +11053,8 @@
    "الفخذ الخلفي",
    "الفخذ الأمامي"
   ],
-  "equipment": "dumbbell, exercise ball, tennis ball",
-  "equipment_ar": "دمبل وكورة توازن وكورة تنس",
+  "equipment": "dumbbell",
+  "equipment_ar": "دمبل",
   "description": "A dumbbell calf raise with an exercise ball behind your lower back against a wall and a tennis ball held between the ankles. Gripping the ball at the ankles stops the feet rolling outward as you rise.",
   "description_ar": "سمانة بالدمبل وكورة توازن ورا أسفل ظهرك على الحيطة، وكورة تنس ماسكها بين كواحلك. لما تمسك الكورة عند الكاحل رجلك متميلش لبرة وانت طالع.",
   "instructions": [
@@ -11248,8 +11248,8 @@
  },
  {
   "id": "2800",
-  "name": "Barbell Sitted Alternate Leg Raise (female)",
-  "name_ar": "رفع رجل بالتبادل قاعد والبار على فخذك (سيدات)",
+  "name": "Barbell Sitted Alternate Leg Raise (Pause at Top)",
+  "name_ar": "رفع رجل بالتبادل قاعد والبار على فخذك مع ثبات فوق",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "intermediate",
@@ -13408,8 +13408,8 @@
  },
  {
   "id": "0697",
-  "name": "Self Assisted Inverse Leg Curl",
-  "name_ar": "رجل خلفي عكسي نايم على ظهرك بمساعدة الإيدين",
+  "name": "Self Assisted Inverse Leg Curl (Hands on Bench)",
+  "name_ar": "رجل خلفي عكسي وإيديك ساندة على البنش",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "beginner",
@@ -14142,8 +14142,8 @@
  },
  {
   "id": "3562",
-  "name": "Barbell Glute Bridge Two Legs On Bench (male)",
-  "name_ar": "كوبري الجلوتس بالبار ورجليك على البنش (رجالة)",
+  "name": "Barbell Glute Bridge Two Legs On Bench",
+  "name_ar": "كوبري الجلوتس بالبار ورجليك على البنش",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "intermediate",
@@ -14606,7 +14606,7 @@
  {
   "id": "3016",
   "name": "Curl-Up",
-  "name_ar": "نص سيت أب",
+  "name_ar": "كيرل أب",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "beginner",
@@ -15013,8 +15013,8 @@
  },
  {
   "id": "2801",
-  "name": "Twisted Leg Raise (female)",
-  "name_ar": "رفع رجل مع لف (سيدات)",
+  "name": "Twisted Leg Raise (Bent Knees)",
+  "name_ar": "رفع رجل مع لف والركب مثنية",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "intermediate",
@@ -17447,8 +17447,8 @@
  },
  {
   "id": "3221",
-  "name": "Half Knee Bends (male)",
-  "name_ar": "نص سكوات (رجالي)",
+  "name": "Half Knee Bends",
+  "name_ar": "نص سكوات",
   "category": "cardio",
   "category_ar": "كارديو",
   "difficulty": "beginner",
@@ -18029,8 +18029,8 @@
  },
  {
   "id": "3697",
-  "name": "Cable Kneeling Rear Delt Row (with Rope) (male)",
-  "name_ar": "سحب كتف خلفي على ركبك بحبل الكابل (رجالي)",
+  "name": "Cable Kneeling Rear Delt Row (with Rope)",
+  "name_ar": "سحب كتف خلفي على ركبك بحبل الكابل",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "intermediate",
@@ -18234,8 +18234,8 @@
  },
  {
   "id": "2804",
-  "name": "Dumbbell Supported Squat",
-  "name_ar": "سكوات بالدمبل مع سند",
+  "name": "Lever Sissy Squat With Dumbbell",
+  "name_ar": "سيسي سكوات على الجهاز بالدمبل",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "intermediate",
@@ -19768,8 +19768,8 @@
  },
  {
   "id": "3433",
-  "name": "Swimmer Kicks V. 2 (male)",
-  "name_ar": "رفرفة رجلين زي السباحة (نسخة 2، رجالي)",
+  "name": "Swimmer Kicks V. 2",
+  "name_ar": "رفرفة رجلين زي السباحة (نسخة 2)",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "intermediate",
@@ -20797,8 +20797,8 @@
  },
  {
   "id": "3215",
-  "name": "Hands Reversed Clasped Circular Toe Touch (male)",
-  "name_ar": "لمس صوابع الرجل بحركة دايرية والإيدين متشبكين ورا (رجالي)",
+  "name": "Hands Reversed Clasped Circular Toe Touch",
+  "name_ar": "لمس صوابع الرجل بحركة دايرية والإيدين متشبكين ورا",
   "category": "stretching",
   "category_ar": "إطالة",
   "difficulty": "beginner",
@@ -24039,8 +24039,8 @@
    "الكتف",
    "الترايسبس"
   ],
-  "equipment": "dumbbell, exercise ball",
-  "equipment_ar": "دمبل وكورة توازن",
+  "equipment": "dumbbell",
+  "equipment_ar": "دمبل",
   "description": "A two-dumbbell incline press done half-reclined on an exercise ball. It builds the upper chest, front shoulders and triceps and adds a stability challenge for the hips and core.",
   "description_ar": "بنش مايل بدمبلين وانت نص نايم على كورة توازن. بيبني الصدر العلوي والكتف الأمامي والترايسبس وبيزود تحدي الثبات على الوسط والبطن.",
   "instructions": [
@@ -24062,8 +24062,8 @@
  },
  {
   "id": "3222",
-  "name": "Semi Squat Jump (male)",
-  "name_ar": "نص سكوات بالنط (رجالي)",
+  "name": "Semi Squat Jump",
+  "name_ar": "نص سكوات بالنط",
   "category": "cardio",
   "category_ar": "كارديو",
   "difficulty": "intermediate",
@@ -25681,8 +25681,8 @@
  },
  {
   "id": "3523",
-  "name": "Glute Bridge Two Legs On Bench (male)",
-  "name_ar": "كوبري الجلوتس ورجليك الاتنين على البنش (رجالي)",
+  "name": "Glute Bridge Two Legs On Bench",
+  "name_ar": "كوبري الجلوتس ورجليك الاتنين على البنش",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "beginner",
@@ -27529,8 +27529,8 @@
  },
  {
   "id": "1759",
-  "name": "Single Leg Squat (pistol) Male",
-  "name_ar": "سكوات على رجل واحدة (بيستول) رجالي",
+  "name": "Single Leg Squat (pistol)",
+  "name_ar": "سكوات على رجل واحدة (بيستول)",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "advanced",
@@ -27695,8 +27695,8 @@
  },
  {
   "id": "3217",
-  "name": "Modified Hindu Push-Up (male)",
-  "name_ar": "ضغط هندي معدّل (رجالي)",
+  "name": "Modified Hindu Push-Up",
+  "name_ar": "ضغط هندي معدّل",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "intermediate",
@@ -27816,8 +27816,8 @@
  },
  {
   "id": "3216",
-  "name": "Chest Tap Push-Up (male)",
-  "name_ar": "ضغط مع لمس الصدر (رجالي)",
+  "name": "Chest Tap Push-Up",
+  "name_ar": "ضغط مع لمس الصدر",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "advanced",
@@ -28576,8 +28576,8 @@
  },
  {
   "id": "3214",
-  "name": "Arms Apart Circular Toe Touch (male)",
-  "name_ar": "لمس صوابع الرجل وذراعاتك مفتوحة (رجالي)",
+  "name": "Arms Apart Circular Toe Touch",
+  "name_ar": "لمس صوابع الرجل وذراعاتك مفتوحة",
   "category": "balance",
   "category_ar": "توازن",
   "difficulty": "intermediate",
@@ -28828,8 +28828,8 @@
  },
  {
   "id": "3643",
-  "name": "Weighted Cossack Squats (male)",
-  "name_ar": "سكوات قوزاقي بوزن (رجالي)",
+  "name": "Weighted Cossack Squats",
+  "name_ar": "سكوات قوزاقي بوزن",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "advanced",
@@ -30449,8 +30449,8 @@
  },
  {
   "id": "0577",
-  "name": "Lever Chest Press",
-  "name_ar": "ضغط صدر على الجهاز",
+  "name": "Lever Chest Press (Slow Negative)",
+  "name_ar": "ضغط صدر على الجهاز بنزول بطيء",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "beginner",
@@ -30832,8 +30832,8 @@
    "الكتف",
    "الترايسبس"
   ],
-  "equipment": "dumbbell, exercise ball",
-  "equipment_ar": "دمبل وكورة توازن",
+  "equipment": "dumbbell",
+  "equipment_ar": "دمبل",
   "description": "A dumbbell fly done in a bridge on an exercise ball with one foot lifted off the floor. Balancing on a single leg makes the glutes and core work hard while the chest does the fly.",
   "description_ar": "تفتيح بالدمبل في وضع كوبري على كورة توازن ورجل مرفوعة من على الأرض. التوازن على رجل واحدة بيخلي الجلوتس والبطن يشتغلوا جامد والصدر بيعمل التفتيح.",
   "instructions": [
@@ -31496,8 +31496,8 @@
  },
  {
   "id": "2798",
-  "name": "Barbell Squat Jump Step Rear Lunge",
-  "name_ar": "سكوات بالنط على السلمة مع لانجز لورا بالبار",
+  "name": "Barbell Squat Jump Rear Lunge (No Step)",
+  "name_ar": "سكوات بالنط مع لانجز لورا بالبار من غير سلمة",
   "category": "plyometrics",
   "category_ar": "تمارين نط وانفجار",
   "difficulty": "advanced",
@@ -32514,8 +32514,8 @@
  },
  {
   "id": "3224",
-  "name": "Jack Jump (male)",
-  "name_ar": "جامبينج جاك (رجالي)",
+  "name": "Jack Jump",
+  "name_ar": "جامبينج جاك",
   "category": "cardio",
   "category_ar": "كارديو",
   "difficulty": "beginner",
@@ -33932,8 +33932,8 @@
  },
  {
   "id": "1390",
-  "name": "Seated Calf Stretch (male)",
-  "name_ar": "إطالة السمانة قاعد (رجالي)",
+  "name": "Seated Calf Stretch",
+  "name_ar": "إطالة السمانة قاعد",
   "category": "stretching",
   "category_ar": "إطالة",
   "difficulty": "beginner",
@@ -34057,8 +34057,8 @@
  },
  {
   "id": "3887",
-  "name": "Jump Box Over (male)",
-  "name_ar": "نط فوق البوكس (رجالي)",
+  "name": "Jump Box Over",
+  "name_ar": "نط فوق البوكس",
   "category": "plyometrics",
   "category_ar": "تمارين نط وانفجار",
   "difficulty": "intermediate",
@@ -34471,8 +34471,8 @@
  },
  {
   "id": "3236",
-  "name": "Resistance Band Hip Thrusts On Knees (female)",
-  "name_ar": "هيب ثرست على الركب بالأستك (حريمي)",
+  "name": "Resistance Band Hip Thrusts On Knees",
+  "name_ar": "هيب ثرست على الركب بالأستك",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "beginner",
@@ -35962,8 +35962,8 @@
  },
  {
   "id": "3211",
-  "name": "Kneeling Push-Up (male)",
-  "name_ar": "ضغط على الركب (رجالي)",
+  "name": "Kneeling Push-Up",
+  "name_ar": "ضغط على الركب",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "beginner",
@@ -37562,8 +37562,8 @@
  },
  {
   "id": "3220",
-  "name": "Astride Jumps (male)",
-  "name_ar": "نط بفتح الرجلين (رجالي)",
+  "name": "Astride Jumps",
+  "name_ar": "نط بفتح الرجلين",
   "category": "cardio",
   "category_ar": "كارديو",
   "difficulty": "beginner",
@@ -38795,8 +38795,8 @@
  },
  {
   "id": "3212",
-  "name": "Basic Toe Touch (male)",
-  "name_ar": "لمس صوابع الرجل (رجالي)",
+  "name": "Basic Toe Touch",
+  "name_ar": "لمس صوابع الرجل",
   "category": "stretching",
   "category_ar": "إطالة",
   "difficulty": "beginner",
@@ -39190,8 +39190,8 @@
    "الترايسبس",
    "الكتف"
   ],
-  "equipment": "dumbbell (used as handles for deeper range)",
-  "equipment_ar": "دمبلز كمسكات",
+  "equipment": "dumbbell",
+  "equipment_ar": "دمبل",
   "description": "A push-up done with your hands on dumbbells or handles so your chest can sink below hand level. The extra depth gives the chest a bigger stretch and makes it work harder.",
   "description_ar": "ضغط وإيديك على دمبلز أو مسكات عشان صدرك ينزل أوطى من مستوى إيدك. العمق الزيادة بيدي الصدر إطالة أكبر ويخليه يشتغل أكتر.",
   "instructions": [
@@ -40994,8 +40994,8 @@
  },
  {
   "id": "2806",
-  "name": "Dumbbell Single Leg Deadlift With Stepbox Support",
-  "name_ar": "ديدلفت برجل واحدة بالدمبل مع سند على البوكس",
+  "name": "Dumbbell Single Leg Deadlift With Stepbox Support (One Dumbbell)",
+  "name_ar": "ديدلفت برجل واحدة بدمبل واحد مع سند على البوكس",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "intermediate",
@@ -41127,8 +41127,8 @@
  },
  {
   "id": "3202",
-  "name": "Half Sit-Up (male)",
-  "name_ar": "نص سيت أب (رجالي)",
+  "name": "Half Sit-Up",
+  "name_ar": "نص سيت أب",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "beginner",
@@ -42244,8 +42244,8 @@
  },
  {
   "id": "3639",
-  "name": "Bent Knee Lying Twist (male)",
-  "name_ar": "لف الركب وانت نايم (رجالي)",
+  "name": "Bent Knee Lying Twist",
+  "name_ar": "لف الركب وانت نايم",
   "category": "mobility",
   "category_ar": "مرونة وحركة",
   "difficulty": "beginner",
@@ -42301,8 +42301,8 @@
   "secondary_muscles_ar": [
    "الكتف"
   ],
-  "equipment": "assisted (towel)",
-  "equipment_ar": "بفوطة",
+  "equipment": "assisted",
+  "equipment_ar": "بمساعدة",
   "description": "A no-equipment overhead triceps extension where one hand straightens the arm behind your head while the other hand pulls a towel to add resistance. It builds the triceps and is handy for home or travel training.",
   "description_ar": "تمرين ترايسبس فوق الراس من غير أي أدوات، إيد بتفرد الذراع ورا راسك والإيد التانية بتشد فوطة عشان تعمل مقاومة. بيبني الترايسبس ومناسب للتمرين في البيت أو في السفر.",
   "instructions": [
@@ -43811,8 +43811,8 @@
  },
  {
   "id": "3213",
-  "name": "Side-To-Side Toe Touch (male)",
-  "name_ar": "لمس صوابع الرجل يمين وشمال (رجالي)",
+  "name": "Side-To-Side Toe Touch",
+  "name_ar": "لمس صوابع الرجل يمين وشمال",
   "category": "mobility",
   "category_ar": "مرونة وحركة",
   "difficulty": "beginner",
@@ -44147,8 +44147,8 @@
  },
  {
   "id": "0656",
-  "name": "Push-Up (on Stability Ball)",
-  "name_ar": "ضغط على كورة التوازن",
+  "name": "Push-Up (on Stability Ball, Wide Feet)",
+  "name_ar": "ضغط على كورة التوازن ورجليك مفتوحة",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "advanced",
@@ -44612,8 +44612,8 @@
  },
  {
   "id": "3667",
-  "name": "Side Lying Hip Adduction (male)",
-  "name_ar": "ضم الفخذ نايم على جنبك (رجالي)",
+  "name": "Side Lying Hip Adduction",
+  "name_ar": "ضم الفخذ نايم على جنبك",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "beginner",
@@ -45153,8 +45153,8 @@
  },
  {
   "id": "0763",
-  "name": "Smith Reverse Calf Raises",
-  "name_ar": "سمانة عكسي على جهاز سميث",
+  "name": "Smith Reverse Calf Raises (Bar on Front of Shoulders)",
+  "name_ar": "سمانة عكسي على جهاز سميث والبار على كتافك من قدام",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "beginner",
@@ -46913,8 +46913,8 @@
  },
  {
   "id": "3470",
-  "name": "Forward Lunge (male)",
-  "name_ar": "لانجز لقدام (رجالي)",
+  "name": "Forward Lunge",
+  "name_ar": "لانجز لقدام",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "beginner",
@@ -48599,8 +48599,8 @@
  },
  {
   "id": "3239",
-  "name": "Kneeling Plank Tap Shoulder (male)",
-  "name_ar": "بلانك مع لمس الكتف من وضع الركوع (رجالي)",
+  "name": "Kneeling Plank Tap Shoulder",
+  "name_ar": "بلانك مع لمس الكتف من وضع الركوع",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "beginner",
@@ -48818,8 +48818,8 @@
   "secondary_muscles_ar": [
    "الكتف"
   ],
-  "equipment": "dumbbell, exercise ball",
-  "equipment_ar": "دمبل وكورة توازن",
+  "equipment": "dumbbell",
+  "equipment_ar": "دمبل",
   "description": "A dumbbell fly done half-reclined on an exercise ball with the hips dropped, creating an incline angle that targets the upper chest.",
   "description_ar": "تفتيح بالدمبل وانت نص نايم على كورة توازن ووسطك نازل، فبتعمل زاوية مايلة بتركز على الصدر العلوي.",
   "instructions": [
@@ -48884,8 +48884,8 @@
  },
  {
   "id": "2327",
-  "name": "Dumbbell Reverse Grip Row (female)",
-  "name_ar": "سحب بالدمبل بقبضة عكسية (حريمي)",
+  "name": "Dumbbell Reverse Grip Row",
+  "name_ar": "سحب بالدمبل بقبضة عكسية",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "intermediate",
@@ -51689,8 +51689,8 @@
   "secondary_muscles_ar": [
    "السواعد"
   ],
-  "equipment": "dumbbell, exercise ball",
-  "equipment_ar": "دمبل وكورة توازن",
+  "equipment": "dumbbell",
+  "equipment_ar": "دمبل",
   "description": "A hammer curl done seated on an exercise ball. The neutral grip works the biceps, brachialis and forearms, and the ball keeps your core engaged.",
   "description_ar": "هامر بالدمبل وانت قاعد على كورة التوازن. المسكة المحايدة بتشغّل البايسبس والبراكياليس والسواعد، والكورة بتخلي بطنك شغالة.",
   "instructions": [
@@ -51956,8 +51956,8 @@
  },
  {
   "id": "1628",
-  "name": "Ez Barbell Spider Curl",
-  "name_ar": "بايسبس سبايدر بالبار الزجزاج",
+  "name": "Ez Barbell Spider Curl (Incline Bench)",
+  "name_ar": "بايسبس سبايدر بالبار الزجزاج على بنش مايل",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "intermediate",
@@ -52032,7 +52032,7 @@
  },
  {
   "id": "3204",
-  "name": "Arms Overhead Full Sit-Up (male)",
+  "name": "Arms Overhead Full Sit-Up",
   "name_ar": "سيت أب كامل وذراعاتك فوق راسك",
   "category": "strength",
   "category_ar": "قوة",
@@ -53304,7 +53304,7 @@
  },
  {
   "id": "3203",
-  "name": "Prisoner Half Sit-Up (male)",
+  "name": "Prisoner Half Sit-Up",
   "name_ar": "نص سيت أب وإيديك ورا راسك",
   "category": "strength",
   "category_ar": "قوة",
@@ -54538,8 +54538,8 @@
  },
  {
   "id": "2808",
-  "name": "Dumbbell Sumo Pull Through",
-  "name_ar": "سحب الدمبل من بين الرجلين وقفة سومو",
+  "name": "Dumbbell Sumo Pull Through (Bottom Stretch)",
+  "name_ar": "سحب الدمبل من بين الرجلين وقفة سومو مع إطالة تحت",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "beginner",
@@ -54954,7 +54954,7 @@
  },
  {
   "id": "3231",
-  "name": "Two Toe Touch (male)",
+  "name": "Two Toe Touch",
   "name_ar": "لمس صوابع الرجل بالإيدين",
   "category": "mobility",
   "category_ar": "مرونة وحركة",
@@ -55198,8 +55198,8 @@
  },
  {
   "id": "1371",
-  "name": "Barbell Seated Calf Raise",
-  "name_ar": "سمانة قاعد بالبار",
+  "name": "Barbell Seated Calf Raise (Hip-Width Stance)",
+  "name_ar": "سمانة قاعد بالبار ورجليك بعرض الحوض",
   "category": "strength",
   "category_ar": "قوة",
   "difficulty": "beginner",
@@ -55986,8 +55986,8 @@
   "secondary_muscles_ar": [
    "السواعد"
   ],
-  "equipment": "dumbbell, exercise ball",
-  "equipment_ar": "دمبل وكورة توازن",
+  "equipment": "dumbbell",
+  "equipment_ar": "دمبل",
   "description": "A preacher-style curl done kneeling behind an exercise ball with the backs of your upper arms resting on top of it. The ball acts as a soft preacher pad, so the biceps work without body swing.",
   "description_ar": "بايسبس على طريقة الكرسي وانت راكع ورا كورة التوازن وظهر الذراع من فوق ساند عليها. الكورة بتشتغل زي مسند كرسي البايسبس فالبايسبس بيشتغل من غير مرجحة.",
   "instructions": [
@@ -57433,7 +57433,7 @@
  },
  {
   "id": "3219",
-  "name": "Scissor Jumps (male)",
+  "name": "Scissor Jumps",
   "name_ar": "نط المقص",
   "category": "cardio",
   "category_ar": "كارديو",
@@ -57734,7 +57734,7 @@
  },
  {
   "id": "1167",
-  "name": "Dynamic Chest Stretch (male)",
+  "name": "Dynamic Chest Stretch",
   "name_ar": "إطالة صدر متحركة",
   "category": "mobility",
   "category_ar": "مرونة وحركة",

@@ -2,7 +2,7 @@
  "extends": "templates/tri-bar-dip.json",
  "equipment": [
   {
-   "type": "rope",
+   "type": "rings",
    "from": [
     0,
     2.45

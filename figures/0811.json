@@ -2,7 +2,7 @@
  "extends": "templates/legs-deadlift.json",
  "equipment": [
   {
-   "type": "barbell",
+   "type": "trapBar",
    "r": 0.2
   }
  ]

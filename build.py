@@ -73,6 +73,7 @@ def main():
             failures += 1
             continue
         fig["muscles"] = [e["target"]]
+        fig["secondary"] = e.get("secondary_muscles") or []
         issues = render.problems(fig)
         for issue in issues:
             print(f"{path.name} ({e['name']}): {issue}")

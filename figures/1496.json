@@ -19,12 +19,7 @@
      187.4,
      95
     ]
-   },
-   "props": [
-    {
-     "chain": -0.38
-    }
-   ]
+   }
   },
   {
    "torso": 50,
@@ -44,22 +39,15 @@
      200.8,
      95
     ]
-   },
-   "props": [
-    {
-     "chain": 0.35
-    }
-   ]
+   }
   }
  ],
  "equipment": [
   {
-   "type": "hanging",
+   "type": "sledgehammer",
    "on": [
     "nearHand"
-   ],
-   "chain": -0.38,
-   "r": 0.07
+   ]
   }
  ]
 }

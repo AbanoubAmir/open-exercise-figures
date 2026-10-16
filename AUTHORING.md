@@ -2,8 +2,8 @@
 
 Animated figures for every exercise in the Fitness Connect library, drawn by our own code from a few key poses per exercise. Nothing here is traced or copied from photos, videos or other datasets.
 
-- `render.py` draws a figure file to a looping animated WebP (Python 3 and Pillow).
-- `build.py` renders the whole library: one `figures/<external_id>.json` per exercise in `../data/shared_exercises_ar.json`, written to `out/library/<external_id>.webp`. The highlighted muscle comes from the exercise's `target`.
+- `render.py` draws a figure file to a looping animated WebP (Python 3, Pillow and NumPy): a soft-shaded grey mannequin lit from the top left, on a light backdrop with a floor and contact shadows.
+- `build.py` renders the whole library: one `figures/<external_id>.json` per exercise in `../data/shared_exercises_ar.json`, written to `out/library/<external_id>.webp`. The exercise's `target` is highlighted in red and its `secondary_muscles` in a soft tint (names like `shoulders` or `chest` map onto the drawn muscles through `ALIAS` in `render.py`).
 - `templates/` holds shared movements that figures extend.
 
 ```
@@ -88,6 +88,7 @@ The floor is at height 0, and `build.py` reports any joint below it.
 
 - `dumbbell` (front view: add `"axis": 90` to draw it side-on, as when pressing)
 - `kettlebell`, `barbell` (also EZ bars; side view draws the plate end-on, `r` sets its radius, default 0.21, use about 0.15 when it hides the movement), `bar` (an empty bar or stick), `plate`, `medicineBall`, `handle`
+- `trapBar` (hex bar; side view shows its frame and the plates end on), `keg`, `sledgehammer` (the handle follows the hand, `length` default 0.75)
 - `hanging`: a weight on a strap or chain hanging straight down from the joint, `chain` (length, default 0.3) and `r`. Use it for head harnesses (`"on": ["head"]`), dip belts (`"on": ["hip"]`) and wrist rollers.
 
 Connectors run from `"from"` (a point `[x, y]`, or a joint name such as `"nearToe"` for a band under the foot) to joints (`"on"`, default `["nearHand"]`):
@@ -95,6 +96,8 @@ Connectors run from `"from"` (a point `[x, y]`, or a joint name such as `"nearTo
 - `cable` (pulley at `from`)
 - `rope`
 - `band`
+- `rings`: gymnastics rings on straps from `from`.
+- `landmine`: a barbell pivoting in a floor sleeve at `from`, loaded end just past the hands.
 - `lever`: a machine arm. Put the pivot at `from` and the pad or handle at the joint. Use it for any leverage, chest-press, leg-extension or leg-curl machine.
 
 Fixed props sit at `"at": [x, y]`, or at a joint name to follow it (a sled or roller that moves with you):
@@ -108,6 +111,7 @@ Fixed props sit at `"at": [x, y]`, or at a joint name to follow it (a sled or ro
 - `wall`.
 - `sled`: `w`, `h`.
 - `pad`: `w`, `h`, `angle`.
+- `tire`: a truck tyre seen edge on, `w`, `h`, `angle` like `pad`.
 
 ### Equipment that moves
 

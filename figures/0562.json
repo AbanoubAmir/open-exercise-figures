@@ -2,7 +2,7 @@
  "extends": "templates/core-standing-twist.json",
  "equipment": [
   {
-   "type": "lever",
+   "type": "landmine",
    "from": [
     0,
     0.05
@@ -10,13 +10,6 @@
    "on": [
     "nearHand"
    ]
-  },
-  {
-   "type": "plate",
-   "on": [
-    "nearHand"
-   ],
-   "r": 0.14
   }
  ],
  "poses": [

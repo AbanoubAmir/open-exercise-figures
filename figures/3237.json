@@ -2,7 +2,7 @@
  "extends": "templates/dumbbell-lateral-raise.json",
  "equipment": [
   {
-   "type": "lever",
+   "type": "landmine",
    "from": [
     -0.8,
     0.05

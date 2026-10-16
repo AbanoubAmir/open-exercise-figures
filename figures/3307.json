@@ -9,7 +9,7 @@
  ],
  "equipment": [
   {
-   "type": "medicineBall",
+   "type": "keg",
    "on": [
     "nearWrist"
    ]

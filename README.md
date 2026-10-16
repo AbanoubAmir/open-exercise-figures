@@ -8,11 +8,11 @@ Made for the [Fitness Connect](https://github.com/EmammMuhammed/Fitness-Connect)
 
 | Path | What it is |
 | --- | --- |
-| `animations/<id>.webp` | A looping animated WebP per exercise, 400×400, about 30 to 80 KB. The target muscle is highlighted. |
+| `animations/<id>.webp` | A looping animated WebP per exercise, 480×480, about 60 to 200 KB: a soft-shaded mannequin with real-looking equipment and floor shadows. The target muscle is bright red and the secondary muscles a soft tint. |
 | `exercises.json` | One entry per exercise: name, category, difficulty, muscle group, target and secondary muscles, equipment, description and instructions, each in English and Arabic (`_ar`), plus the paths to its animation and figure file. |
-| `figures/<id>.json` | The source of each animation: a few key poses of a simple mannequin and the equipment around it. |
+| `figures/<id>.json` | The source of each animation: a few key poses of a mannequin and the equipment around it. |
 | `templates/` | Shared movements that figure files build on. |
-| `render.py`, `build.py` | The renderer (Python 3 and Pillow) that turns figure files into animations. |
+| `render.py`, `build.py` | The renderer (Python 3, Pillow and NumPy) that turns figure files into animations. |
 | `AUTHORING.md` | How figure files work, for changing or adding exercises. |
 
 An entry in `exercises.json`:
@@ -45,7 +45,7 @@ Or copy the files into your own app or storage.
 ## Changing or adding exercises
 
 ```
-pip install pillow
+pip install pillow numpy
 python3 build.py --ids 0001 --sheet check.png   # key poses, side by side, to review
 python3 build.py --check                        # validate every figure
 python3 build.py --out animations               # render everything

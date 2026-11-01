@@ -1,0 +1,11 @@
+{
+ "view": "side",
+ "anchor": ["hip", [0, 0.78]],
+ "equipment": [
+  { "type": "pushSled", "at": [1.12, 0], "h": 1.0 }
+ ],
+ "poses": [
+  { "torso": 52, "head": 72, "arms": [105, 95], "legs": { "near": [125, 185, 98], "far": [210, 240, 165] } },
+  { "torso": 52, "head": 72, "arms": [105, 95], "legs": { "near": [210, 240, 165], "far": [125, 185, 98] } }
+ ]
+}

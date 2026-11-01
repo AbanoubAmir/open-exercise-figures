@@ -1,0 +1,10 @@
+{
+ "extends": "templates/legs-forward-lunge.json",
+ "equipment": [
+  { "type": "sandbag", "on": ["shoulder"], "offset": [-0.1, 0.0] }
+ ],
+ "poses": [
+  { "torso": 0, "arms": [152, 330], "legs": [180, 180, 95] },
+  { "torso": 3, "arms": [155, 333], "legs": { "near": [90, 180, 95], "far": [185, 285, 175] } }
+ ]
+}

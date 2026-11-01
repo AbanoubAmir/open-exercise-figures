@@ -90,6 +90,9 @@ The floor is at height 0, and `build.py` reports any joint below it.
 - `kettlebell`, `barbell` (also EZ bars; side view draws the plate end-on, `r` sets its radius, default 0.21, use about 0.15 when it hides the movement), `bar` (an empty bar or stick), `plate`, `medicineBall`, `handle`
 - `trapBar` (hex bar; side view shows its frame and the plates end on), `keg`, `sledgehammer` (the handle follows the hand, `length` default 0.75)
 - `hanging`: a weight on a strap or chain hanging straight down from the joint, `chain` (length, default 0.3) and `r`. Use it for head harnesses (`"on": ["head"]`), dip belts (`"on": ["hip"]`) and wrist rollers.
+- `sandbag`: seen end on, for a bag across the upper back (`"on": ["shoulder"]` with an `offset`).
+
+Any held item takes `"offset": [dx, dy]`, metres from its joint. Animate it through `props` to let go of something, such as a wall ball flying to its target; give the item its resting offset (usually `[0, 0]`) so poses that leave it out return there.
 
 Connectors run from `"from"` (a point `[x, y]`, or a joint name such as `"nearToe"` for a band under the foot) to joints (`"on"`, default `["nearHand"]`):
 
@@ -98,6 +101,7 @@ Connectors run from `"from"` (a point `[x, y]`, or a joint name such as `"nearTo
 - `band`
 - `rings`: gymnastics rings on straps from `from`.
 - `landmine`: a barbell pivoting in a floor sleeve at `from`, loaded end just past the hands.
+- `pullRope`: one rope from `from` (a sled hitch) through both hands, nearest first, then slack piled on the floor behind (`on` defaults to both hands). Use it for hand-over-hand sled pulls.
 - `lever`: a machine arm. Put the pivot at `from` and the pad or handle at the joint. Use it for any leverage, chest-press, leg-extension or leg-curl machine.
 
 Fixed props sit at `"at": [x, y]`, or at a joint name to follow it (a sled or roller that moves with you):
@@ -108,8 +112,9 @@ Fixed props sit at `"at": [x, y]`, or at a joint name to follow it (a sled or ro
 - `bosu`, `roller`.
 - `pullupBar`, `parallelBars`: `at` is the grip.
 - `rails`: Smith machine or rack upright at `at[0]`.
-- `wall`.
-- `sled`: `w`, `h`.
+- `wall`: `h`; `target` adds a wall-ball target at that height.
+- `sled`: `w`, `h` (a plain block, for machine sleds).
+- `pushSled`: a loaded push/pull sled from the side. `at` is the foot of its uprights on the floor; the handles are at height `h` (default 1.05) just towards the figure, and the base runs `length` (default 1.0) away from it, with `plates` (default 4) on a peg.
 - `pad`: `w`, `h`, `angle`.
 - `tire`: a truck tyre seen edge on, `w`, `h`, `angle` like `pad`.
 

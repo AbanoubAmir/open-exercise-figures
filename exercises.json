@@ -58744,5 +58744,56 @@
   ],
   "animation": "animations/pulse-0010.webp",
   "figure": "figures/pulse-0010.json"
+ },
+ {
+  "id": "pulse-0011",
+  "name": "Rowing Machine",
+  "name_ar": "جهاز التجديف",
+  "category": "cardio",
+  "category_ar": "كارديو",
+  "difficulty": "beginner",
+  "difficulty_ar": "مبتدئ",
+  "muscle_group": "cardio",
+  "muscle_group_ar": "كارديو",
+  "target": "cardiovascular system",
+  "target_ar": "القلب والنفَس",
+  "secondary_muscles": [
+   "quadriceps",
+   "glutes",
+   "hamstrings",
+   "lats",
+   "upper back",
+   "biceps"
+  ],
+  "secondary_muscles_ar": [
+   "الفخذ الأمامي",
+   "الجلوتس",
+   "الفخذ الخلفي",
+   "المجانص",
+   "أعلى الظهر",
+   "البايسبس"
+  ],
+  "equipment": "rowing machine",
+  "equipment_ar": "جهاز تجديف",
+  "description": "Rowing on an indoor rowing machine: a leg drive, a lean back and an arm pull on every stroke. It works most of the body's big muscles while it builds endurance, and it is one of the eight HYROX stations.",
+  "description_ar": "تجديف على جهاز التجديف: دفعة برجليك، ميلة لورا، وشدّة بإيديك في كل ضربة. بيشغّل أغلب عضلات الجسم الكبيرة وهو بيبني التحمّل، وهو واحدة من محطات الهايروكس التمانية.",
+  "instructions": [
+   "Sit on the seat, strap your feet in so the strap crosses the widest part of your foot, and take the handle with an overhand grip.",
+   "Start at the catch: shins about vertical, arms straight, and your body leaning slightly forward from the hips.",
+   "Drive with your legs first, pushing the footplate away while your arms stay straight and your back stays firm.",
+   "As your legs straighten, lean back a little and pull the handle to your lower ribs, elbows close to your body.",
+   "Return in the reverse order: arms forward, lean forward from the hips, then bend your knees to slide back to the catch.",
+   "Keep a smooth rhythm, breathing out on each drive; in HYROX the station is 1,000 m."
+  ],
+  "instructions_ar": [
+   "اقعد على الكرسي، واربط رجليك بحيث الحزام يعدّي على أعرض حتة في رجلك، وامسك المسكة وكفّك لتحت.",
+   "ابدأ من وضع البداية: قصبة رجلك تقريبًا عمودية، دراعاتك مفرودة، وجسمك مايل لقدام سنة من الوسط.",
+   "ادفع برجليك الأول، وازق لوح الرجلين لبعيد ودراعاتك لسه مفرودة وضهرك ثابت.",
+   "ولما رجليك تتفرد، ميل لورا سنة واسحب المسكة لحد آخر ضلوعك، وكوعك لازق في جسمك.",
+   "ارجع بالعكس: دراعاتك لقدام، ميل لقدام من الوسط، وبعدين اثني ركبك عشان تتزحلق لوضع البداية.",
+   "خليك على إيقاع ناعم، وطلّع النفَس مع كل دفعة؛ في الهايروكس المحطة دي 1000 متر."
+  ],
+  "animation": "animations/pulse-0011.webp",
+  "figure": "figures/pulse-0011.json"
  }
 ]

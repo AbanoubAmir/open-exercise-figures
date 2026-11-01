@@ -510,7 +510,7 @@ def torso_muscles(name, j, view):
 HELD_DEFAULT = {"barbell": ["nearHand"], "bar": ["nearHand"], "medicineBall": ["nearHand"],
                 "plate": ["nearHand"], "trapBar": ["nearHand"], "keg": ["nearHand"],
                 "sledgehammer": ["nearHand"]}
-FIXED = ("bench", "box", "ball", "bosu", "roller", "pullupBar", "parallelBars", "rails", "pad", "wall", "sled",
+FIXED = ("bench", "box", "ball", "bosu", "roller", "pullupBar", "parallelBars", "rails", "pad", "wall", "sled", "rower",
          "tire", "pushSled")
 CONNECTORS = ("cable", "band", "lever", "rope", "rings", "landmine", "pullRope")
 
@@ -662,6 +662,22 @@ def draw_fixed(fr, j, item):
                    (rrect((x + length / 2, 0.12), length * 0.9, 0.04, 90, 0.015), FRAME_C)])
     elif kind == "pad":
         fr.shaded([(rrect(at, item.get("w", 0.35), item.get("h", 0.12), item.get("angle", 90)), PAD)])
+    elif kind == "rower":
+        # A rowing machine from the side: `at` is the foot of the footplate; the flywheel sits in front of
+        # it, the monorail runs `length` back, and the seat slides under the hip.
+        length, rail = item.get("length", 1.6), item.get("rail", 0.27)
+        fx, fy = x + 0.36, 0.42
+        fr.shaded([(bar_poly((x + 0.5, 0.02), (fx, fy), 0.06), FRAME_C),
+                   (bar_poly((x - length + 0.08, 0.02), (x - length + 0.08, rail), 0.05), FRAME_C),
+                   (rrect((x - length + 0.08, 0.015), 0.3, 0.03, 90, 0.012), FRAME_C),
+                   (rrect((x + 0.5, 0.015), 0.42, 0.03, 90, 0.012), FRAME_C)])
+        fr.shaded([(rrect((x - length / 2 + 0.2, rail), length + 0.3, 0.05, 90, 0.02), STEEL)])
+        fr.shaded([(ellipse_poly((fx, fy), 0.24, 0.24, 0, 64), STEEL_DK)], 0.08)
+        fr.flat([ellipse_poly((fx, fy), 0.07, 0.07, 0)], IRON)
+        fr.shaded([(rrect((x + 0.07, y + 0.16), 0.34, 0.05, 25, 0.02), PAD)])
+        hx = j["hip"][0]
+        fr.shaded([(rrect((hx, rail + 0.06), 0.34, 0.07, 90, 0.03), PAD)])
+        fr.flat([ellipse_poly((hx + dx, rail + 0.03), 0.025, 0.025, 0) for dx in (-0.1, 0.1)], IRON)
 
 
 def draw_connector(fr, j, item):

@@ -117,6 +117,7 @@ Fixed props sit at `"at": [x, y]`, or at a joint name to follow it (a sled or ro
 - `pushSled`: a loaded push/pull sled from the side. `at` is the foot of its uprights on the floor; the handles are at height `h` (default 1.05) just towards the figure, and the base runs `length` (default 1.0) away from it, with `plates` (default 4) on a peg.
 - `pad`: `w`, `h`, `angle`.
 - `tire`: a truck tyre seen edge on, `w`, `h`, `angle` like `pad`.
+- `rower`: an indoor rowing machine from the side. `at` is the foot of the footplate (anchor `nearAnkle` just above it); the flywheel sits in front, the monorail at height `rail` (default 0.27) runs `length` (default 1.6) back, and the seat slides under the hip. Add a `cable` from the flywheel centre (`at` x + 0.36, 0.42) and a `handle`.
 
 ### Equipment that moves
 

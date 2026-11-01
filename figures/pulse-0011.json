@@ -1,0 +1,14 @@
+{
+ "view": "side",
+ "anchor": ["nearAnkle", [0, 0.37]],
+ "equipment": [
+  { "type": "rower", "at": [0.02, 0.24], "rail": 0.3 },
+  { "type": "cable", "from": [0.38, 0.42] },
+  { "type": "handle" }
+ ],
+ "poses": [
+  { "torso": 28, "head": 20, "arms": [104, 100], "legs": [55, 160, 25] },
+  { "torso": 12, "head": 8, "arms": [110, 104], "legs": [82, 120, 30] },
+  { "torso": -18, "head": -2, "arms": [200, 78], "legs": [100, 100, 20] }
+ ]
+}

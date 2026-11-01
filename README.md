@@ -1,6 +1,6 @@
 # Open Exercise Figures
 
-Animated figures for 1,399 gym and home exercises, with a name, description and step-by-step instructions for each in English and Egyptian Arabic. Everything is free to use for any purpose, including commercial apps, with no credit needed.
+Animated figures for 1,404 gym and home exercises, with a name, description and step-by-step instructions for each in English and Egyptian Arabic. Everything is free to use for any purpose, including commercial apps, with no credit needed.
 
 Made for the [Fitness Connect](https://github.com/EmammMuhammed/Fitness-Connect) app and shared so nobody else has to rebuild it.
 

@@ -511,8 +511,8 @@ HELD_DEFAULT = {"barbell": ["nearHand"], "bar": ["nearHand"], "medicineBall": ["
                 "plate": ["nearHand"], "trapBar": ["nearHand"], "keg": ["nearHand"],
                 "sledgehammer": ["nearHand"]}
 FIXED = ("bench", "box", "ball", "bosu", "roller", "pullupBar", "parallelBars", "rails", "pad", "wall", "sled",
-         "tire")
-CONNECTORS = ("cable", "band", "lever", "rope", "rings", "landmine")
+         "tire", "pushSled")
+CONNECTORS = ("cable", "band", "lever", "rope", "rings", "landmine", "pullRope")
 
 
 def where(j, value):
@@ -539,6 +539,9 @@ FRAME_C = (150, 156, 170)
 BAND = (255, 138, 61)
 WOOD = (196, 154, 112)
 RUBBER = (46, 48, 56)
+CANVAS = (122, 112, 84)
+ROPE = (150, 122, 80)
+TARGET = (255, 138, 61)
 
 
 def draw_plate_face(fr, c, r):
@@ -616,6 +619,9 @@ def draw_fixed(fr, j, item):
     elif kind == "wall":
         h = item.get("h", 2.3)
         fr.flat([[(x - 0.04, 0), (x + 0.04, 0), (x + 0.04, h), (x - 0.04, h)]], (200, 204, 214))
+        if "target" in item:
+            # A wall-ball target: a ring sticking out from the wall, seen edge on.
+            fr.shaded([(rrect((x - 0.13, item["target"]), 0.2, 0.05, 90, 0.02), TARGET)])
     elif kind == "ball":
         r = item.get("r", 0.33)
         fr.shaded([(ellipse_poly(at, r, r, 0, 64), (96, 140, 220))], r * 0.45)
@@ -644,6 +650,16 @@ def draw_fixed(fr, j, item):
             fr.flat([rrect((c[0] + nx * h * 0.38, c[1] + ny * h * 0.38), 0.025, h * 0.12, angle + 90, 0.01),
                      rrect((c[0] - nx * h * 0.38, c[1] - ny * h * 0.38), 0.025, h * 0.12, angle + 90, 0.01)], (26, 27, 32))
         fr.flat([rrect(at, w * 0.82, h * 0.1, angle, h * 0.05)], (70, 73, 84))
+    elif kind == "pushSled":
+        # A push/pull sled from the side: skids, uprights at the near end, plates on a peg.
+        length, handle = item.get("length", 1.0), item.get("h", 1.05)
+        fr.shaded([(bar_poly((x + 0.1, 0.1), (x - 0.04, handle), 0.06), STEEL_DK),
+                   (bar_poly((x - 0.04, handle), (x - 0.17, handle + 0.02), 0.055), RUBBER)])
+        fr.shaded([(bar_poly((x + length / 2, 0.1), (x + length / 2, 0.62), 0.05), STEEL)])
+        for k in range(item.get("plates", 4)):
+            fr.shaded([(rrect((x + length / 2, 0.18 + k * 0.085), 0.52, 0.075, 90, 0.025), IRON)])
+        fr.shaded([(rrect((x + length / 2, 0.06), length, 0.08, 90, 0.035), STEEL_DK),
+                   (rrect((x + length / 2, 0.12), length * 0.9, 0.04, 90, 0.015), FRAME_C)])
     elif kind == "pad":
         fr.shaded([(rrect(at, item.get("w", 0.35), item.get("h", 0.12), item.get("angle", 90)), PAD)])
 
@@ -651,6 +667,15 @@ def draw_fixed(fr, j, item):
 def draw_connector(fr, j, item):
     kind = item["type"]
     start = where(j, item["from"])
+    if kind == "pullRope":
+        # One rope from the sled through both hands (nearest first), then slack piled behind.
+        hands = sorted((j[n] for n in item.get("on", ["nearHand", "farHand"])), key=lambda p: abs(p[0] - start[0]))
+        pts = [start, *hands, (hands[-1][0] - 0.3, 0.03), (hands[-1][0] - 0.8, 0.03)]
+        fr.shaded([(bar_poly(a, b, 0.03), ROPE) for a, b in zip(pts, pts[1:])]
+                  + [(ellipse_poly(p, 0.015, 0.015, 0, 12), ROPE) for p in pts[1:-1]], 0.012)
+        fr.flat([rrect((hands[-1][0] - 0.62, 0.025 + k * 0.03), 0.34 - k * 0.09, 0.032, 90, 0.016)
+                 for k in range(3)], ROPE)
+        return
     for name in item.get("on", ["nearHand"]):
         end = j[name]
         if kind == "lever":
@@ -681,7 +706,8 @@ def draw_connector(fr, j, item):
 
 
 def draw_held(fr, j, item, kind, name, view):
-    w = j[name]
+    dx, dy = item.get("offset", (0, 0))
+    w = (j[name][0] + dx, j[name][1] + dy)
     if kind in ("barbell", "bar") and view == "front":
         mid = ((j["nearHand"][0] + j["farHand"][0]) / 2, (j["nearHand"][1] + j["farHand"][1]) / 2)
         half = item.get("half", 0.75 if kind == "barbell" else 0.6)
@@ -744,6 +770,10 @@ def draw_held(fr, j, item, kind, name, view):
         draw_plate_face(fr, w, item.get("r", 0.16))
     elif kind == "medicineBall":
         fr.shaded([(ellipse_poly(w, 0.13, 0.13, 0, 48), (92, 80, 72))])
+    elif kind == "sandbag":
+        # Lying across the upper back, seen end on.
+        fr.shaded([(rrect(w, 0.3, 0.24, 90 + item.get("angle", 0), 0.1), CANVAS)], 0.05)
+        fr.flat([rrect((w[0], w[1] + 0.01), 0.3, 0.025, 90 + item.get("angle", 0), 0.01)], (84, 76, 56))
     elif kind == "handle":
         fr.shaded([(rrect(w, 0.11, 0.035, 90, 0.015), IRON)])
     elif kind == "hanging":
@@ -776,7 +806,7 @@ def draw_equipment(fr, j, fig, layer, view):
 def contact_shadows(fr, j, fig):
     pts = [p for p in j.values() if p[1] < 0.35]
     for item in fig.get("equipment", []):
-        if item["type"] in ("bench", "box", "sled", "ball", "bosu", "parallelBars", "rails", "wall", "pullupBar") and "at" in item:
+        if item["type"] in ("bench", "box", "sled", "pushSled", "ball", "bosu", "parallelBars", "rails", "wall", "pullupBar") and "at" in item:
             x, y = where(j, item["at"])
             if item["type"] == "bench":
                 L = item.get("length", 1.2)
@@ -784,6 +814,8 @@ def contact_shadows(fr, j, fig):
             elif item["type"] in ("box", "sled"):
                 ww = item.get("w", 0.5)
                 pts += [(x + t * ww / 20, 0.0) for t in range(-10, 11)]
+            elif item["type"] == "pushSled":
+                pts += [(x + t * item.get("length", 1.0) / 20, 0.0) for t in range(0, 21)]
             elif item["type"] in ("ball", "bosu"):
                 pts += [(x, 0.0)]
     m = Image.new("L", (W, W), 0)
@@ -943,6 +975,17 @@ def bounds(fig, frames):
                 half = item.get("w", 0.35) / 2
                 xs += [x - dx * half, x + dx * half]
                 ys += [y - dy * half, y + dy * half]
+            if "offset" in item:
+                for name in item.get("on", HELD_DEFAULT.get(item["type"], ["nearHand", "farHand"])):
+                    xs.append(j[name][0] + item["offset"][0])
+                    ys.append(j[name][1] + item["offset"][1] + 0.15)
+            if item["type"] == "pushSled":
+                x, y = where(j, item["at"])
+                xs.append(x + item.get("length", 1.0))
+            if item["type"] == "pullRope":
+                xs.append(min(j[n][0] for n in item.get("on", ["nearHand", "farHand"])) - 0.85)
+            if item["type"] == "wall" and "target" in item:
+                ys.append(item["target"] + 0.1)
             if item["type"] == "sledgehammer":
                 for name in item.get("on", ["nearHand"]):
                     ux, uy, _, _ = axis(j[name.replace("Hand", "Wrist")], j[name])

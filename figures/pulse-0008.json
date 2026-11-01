@@ -1,0 +1,11 @@
+{
+ "view": "side",
+ "equipment": [
+  { "type": "pushSled", "at": [1.45, 0], "h": 1.0 },
+  { "type": "pullRope", "from": [1.45, 0.25] }
+ ],
+ "poses": [
+  { "torso": -8, "head": 5, "arms": { "near": [112, 105], "far": [210, 118] }, "legs": { "near": [140, 200, 95], "far": [225, 172, 95] } },
+  { "torso": -8, "head": 5, "arms": { "near": [210, 118], "far": [112, 105] }, "legs": { "near": [140, 200, 95], "far": [225, 172, 95] } }
+ ]
+}

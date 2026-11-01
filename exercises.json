@@ -58501,5 +58501,248 @@
   ],
   "animation": "animations/pulse-0005.webp",
   "figure": "figures/pulse-0005.json"
+ },
+ {
+  "id": "pulse-0006",
+  "name": "Wall Ball",
+  "name_ar": "وول بول بالكورة الطبية",
+  "category": "strength",
+  "category_ar": "قوة",
+  "difficulty": "intermediate",
+  "difficulty_ar": "متوسط",
+  "muscle_group": "upper legs",
+  "muscle_group_ar": "الفخذ",
+  "target": "quads",
+  "target_ar": "الفخذ الأمامي",
+  "secondary_muscles": [
+   "glutes",
+   "shoulders",
+   "triceps",
+   "core"
+  ],
+  "secondary_muscles_ar": [
+   "الجلوتس",
+   "الكتف",
+   "الترايسبس",
+   "الكور"
+  ],
+  "equipment": "medicine ball",
+  "equipment_ar": "كورة طبية",
+  "description": "A full squat with a medicine ball held at your chest, finished by throwing the ball up to a target on the wall and catching it into the next squat. A HYROX and CrossFit staple that works the quads, glutes and shoulders and drives your heart rate up.",
+  "description_ar": "سكوات كامل والكورة الطبية على صدرك، وبتخلّصه برمي الكورة لفوق على هدف على الحيطة وتمسكها وانت نازل في السكوات اللي بعده. تمرين أساسي في الهايروكس والكروس فيت بيشغّل الفخذ الأمامي والجلوتس والكتف وبيعلّي نبض قلبك.",
+  "instructions": [
+   "Stand about an arm's length from the wall with feet shoulder-width apart, holding the medicine ball at your chest with both hands under it and elbows down.",
+   "Brace your stomach and squat until your hips are below your knees, keeping your chest up and the ball close.",
+   "Drive up hard through your whole foot and, as your legs straighten, push the ball up and slightly forward with both arms.",
+   "Throw it to hit the target (in HYROX about 3 m for men and 2.7 m for women).",
+   "Catch the ball at your chest as it comes down and sink straight into the next squat.",
+   "Breathe out on each throw and keep a steady rhythm for the set number of reps."
+  ],
+  "instructions_ar": [
+   "اقف بعيد عن الحيطة قد طول ذراعك تقريبًا ورجليك بعرض كتفك، وامسك الكورة الطبية قدام صدرك بإيديك الاتنين من تحتها وكوعك لتحت.",
+   "شد بطنك وانزل سكوات لحد ما وسطك يبقى أوطى من ركبك، وخلي صدرك لفوق والكورة قريبة منك.",
+   "اطلع بقوة وادفع برجلك كلها، ومع فرد رجليك ازق الكورة لفوق ولقدام سنة بإيديك الاتنين.",
+   "ارمي الكورة لحد ما تخبط في الهدف (في الهايروكس حوالي 3 متر للرجالة و2.7 متر للستات).",
+   "امسك الكورة على صدرك وهي نازلة وانزل على طول في السكوات اللي بعده.",
+   "طلّع نفَس مع كل رمية وحافظ على ريتم ثابت للعدد المطلوب من العدّات."
+  ],
+  "animation": "animations/pulse-0006.webp",
+  "figure": "figures/pulse-0006.json"
+ },
+ {
+  "id": "pulse-0007",
+  "name": "Sled Push",
+  "name_ar": "دفع السليد",
+  "category": "strength",
+  "category_ar": "قوة",
+  "difficulty": "intermediate",
+  "difficulty_ar": "متوسط",
+  "muscle_group": "upper legs",
+  "muscle_group_ar": "الفخذ",
+  "target": "quads",
+  "target_ar": "الفخذ الأمامي",
+  "secondary_muscles": [
+   "glutes",
+   "calves",
+   "hamstrings",
+   "shoulders",
+   "core"
+  ],
+  "secondary_muscles_ar": [
+   "الجلوتس",
+   "السمانة",
+   "الفخذ الخلفي",
+   "الكتف",
+   "الكور"
+  ],
+  "equipment": "sled",
+  "equipment_ar": "سليد",
+  "description": "Pushing a loaded sled across the floor by its upright poles, leaning in and driving with short, powerful steps. A HYROX station that builds leg drive in the quads, glutes and calves and tests your conditioning.",
+  "description_ar": "بتزق سليد عليه أوزان على الأرض وانت ماسك العمودين بتوعه، مايل عليه وبتدفع بخطوات قصيرة وقوية. محطة في الهايروكس بتبني قوة الدفع في الفخذ الأمامي والجلوتس والسمانة وبتختبر لياقتك.",
+  "instructions": [
+   "Load the sled and grip its upright poles at about chest height, arms almost straight.",
+   "Lean in until your body makes a straight line from your head to your back heel, about 45 degrees to the floor.",
+   "Brace your stomach and drive one knee forward, pushing the floor away with the ball of your back foot.",
+   "Take short, quick, powerful steps, staying low and keeping your arms firm so the push comes from your legs.",
+   "Keep your head in line with your back and breathe steadily; don't let your hips rise above your shoulders.",
+   "Push for the set distance, then go round to the other end of the sled for the next length."
+  ],
+  "instructions_ar": [
+   "حمّل السليد وامسك العمودين بتوعه على مستوى صدرك تقريبًا وذراعاتك شبه مفرودة.",
+   "ميل عليه لحد ما جسمك يعمل خط مستقيم من راسك لكعب رجلك اللي ورا، حوالي 45 درجة مع الأرض.",
+   "شد بطنك وطلّع ركبة لقدام، وازق الأرض بمشط رجلك اللي ورا.",
+   "خد خطوات قصيرة وسريعة وقوية، وخليك واطي وذراعاتك ثابتة عشان الدفع يطلع من رجليك.",
+   "خلي راسك على خط ظهرك ونفَسك منتظم، وماتخليش وسطك يعلى عن كتفك.",
+   "ازق للمسافة المطلوبة، وبعدين لف للناحية التانية من السليد للطول اللي بعده."
+  ],
+  "animation": "animations/pulse-0007.webp",
+  "figure": "figures/pulse-0007.json"
+ },
+ {
+  "id": "pulse-0008",
+  "name": "Sled Pull",
+  "name_ar": "سحب السليد بالحبل",
+  "category": "strength",
+  "category_ar": "قوة",
+  "difficulty": "intermediate",
+  "difficulty_ar": "متوسط",
+  "muscle_group": "back",
+  "muscle_group_ar": "الظهر",
+  "target": "lats",
+  "target_ar": "المجانص",
+  "secondary_muscles": [
+   "upper back",
+   "biceps",
+   "forearms",
+   "core",
+   "hamstrings"
+  ],
+  "secondary_muscles_ar": [
+   "أعلى الظهر",
+   "البايسبس",
+   "السواعد",
+   "الكور",
+   "الفخذ الخلفي"
+  ],
+  "equipment": "sled",
+  "equipment_ar": "سليد",
+  "description": "Pulling a loaded sled toward you with a rope, hand over hand, while you stay standing in one spot, as in the HYROX sled pull. It works the lats, upper back, biceps and grip, with your legs and core bracing to hold your position.",
+  "description_ar": "بتسحب سليد عليه أوزان ناحيتك بحبل، إيد ورا إيد، وانت واقف في مكانك زي محطة سحب السليد في الهايروكس. بيشغّل المجانص وأعلى الظهر والبايسبس وقبضتك، ورجليك وبطنك بيثبتوك في مكانك.",
+  "instructions": [
+   "Stand facing the sled with the rope stretched out in front of you, feet about shoulder-width apart and knees softly bent.",
+   "Sit your hips back a little, brace your stomach and keep your chest up.",
+   "Reach forward with one hand, grab the rope and pull it hard back to your hip.",
+   "As that hand finishes, reach past it with the other hand and pull again, hand over hand.",
+   "Let the rope pile up behind you and stay in your spot without walking backwards.",
+   "Keep pulling until the sled reaches you, for the set distance."
+  ],
+  "instructions_ar": [
+   "اقف وانت باصص للسليد والحبل ممدود قدامك، ورجليك بعرض كتفك تقريبًا وركبك مثنية سنة.",
+   "رجّع وسطك لورا شوية وشد بطنك وخلي صدرك لفوق.",
+   "مد إيد لقدام وامسك الحبل واسحبه جامد لحد وسطك.",
+   "وانت بتخلّص بالإيد دي، مد الإيد التانية قدامها واسحب تاني، إيد ورا إيد.",
+   "سيب الحبل يتجمع وراك وخليك في مكانك من غير ما ترجع لورا.",
+   "فضل اسحب لحد ما السليد يوصلك، للمسافة المطلوبة."
+  ],
+  "animation": "animations/pulse-0008.webp",
+  "figure": "figures/pulse-0008.json"
+ },
+ {
+  "id": "pulse-0009",
+  "name": "Burpee Broad Jump",
+  "name_ar": "بيربي بنطة طويلة لقدام",
+  "category": "plyometrics",
+  "category_ar": "تمارين نط وانفجار",
+  "difficulty": "intermediate",
+  "difficulty_ar": "متوسط",
+  "muscle_group": "upper legs",
+  "muscle_group_ar": "الفخذ",
+  "target": "quads",
+  "target_ar": "الفخذ الأمامي",
+  "secondary_muscles": [
+   "chest",
+   "glutes",
+   "hamstrings",
+   "shoulders",
+   "triceps",
+   "calves"
+  ],
+  "secondary_muscles_ar": [
+   "الصدر",
+   "الجلوتس",
+   "الفخذ الخلفي",
+   "الكتف",
+   "الترايسبس",
+   "السمانة"
+  ],
+  "equipment": "body weight",
+  "equipment_ar": "وزن الجسم",
+  "description": "A burpee with your chest to the floor, finished by a two-foot jump forward instead of straight up, so each rep moves you down the floor. A HYROX station that works the whole body, especially the quads, glutes and chest.",
+  "description_ar": "بيربي وصدرك بيلمس الأرض، بس بدل ما تنط لفوق بتنط بالرجلين نطة طويلة لقدام، فكل عدّة بتاخدك لقدام على الأرض. محطة في الهايروكس بتشغّل الجسم كله، خصوصًا الفخذ الأمامي والجلوتس والصدر.",
+  "instructions": [
+   "Stand with your feet about shoulder-width apart.",
+   "Squat down, put your hands on the floor and jump or step your feet back into a plank.",
+   "Lower your chest and thighs to the floor, then push back up to the plank.",
+   "Jump or step your feet forward to just behind your hands.",
+   "Swing your arms back, then drive them forward and jump forward as far as you comfortably can, landing on both feet with your knees bent.",
+   "Go straight into the next burpee where you land, keeping a steady pace."
+  ],
+  "instructions_ar": [
+   "اقف ورجليك بعرض كتفك تقريبًا.",
+   "انزل سكوات وحط إيديك على الأرض ونط أو رجّع رجليك لورا لوضع البلانك.",
+   "نزّل صدرك وفخادك على الأرض، وبعدين ازق نفسك وارجع لوضع البلانك.",
+   "نط أو قدّم رجليك لحد ما يبقوا ورا إيديك على طول.",
+   "رجّع ذراعاتك لورا، وبعدين هاتهم لقدام بقوة ونط لقدام على قد ما تقدر براحة، وانزل على الرجلين وركبك مثنية.",
+   "ادخل على طول في البيربي اللي بعده مكان ما نزلت وحافظ على ريتم ثابت."
+  ],
+  "animation": "animations/pulse-0009.webp",
+  "figure": "figures/pulse-0009.json"
+ },
+ {
+  "id": "pulse-0010",
+  "name": "Sandbag Lunge",
+  "name_ar": "لانجز بالمشي بالساند باج",
+  "category": "strength",
+  "category_ar": "قوة",
+  "difficulty": "intermediate",
+  "difficulty_ar": "متوسط",
+  "muscle_group": "upper legs",
+  "muscle_group_ar": "الفخذ",
+  "target": "quads",
+  "target_ar": "الفخذ الأمامي",
+  "secondary_muscles": [
+   "glutes",
+   "hamstrings",
+   "calves",
+   "core"
+  ],
+  "secondary_muscles_ar": [
+   "الجلوتس",
+   "الفخذ الخلفي",
+   "السمانة",
+   "الكور"
+  ],
+  "equipment": "sandbag",
+  "equipment_ar": "ساند باج",
+  "description": "Walking lunges with a sandbag resting across your shoulders and upper back. A HYROX station that builds the quads and glutes under load and tests your balance and endurance.",
+  "description_ar": "لانجز بالمشي والساند باج على كتفك وأعلى ظهرك. محطة في الهايروكس بتبني الفخذ الأمامي والجلوتس تحت وزن وبتختبر توازنك وتحمّلك.",
+  "instructions": [
+   "Lift the sandbag onto your shoulders behind your neck and hold it in place with both hands.",
+   "Stand tall, brace your stomach and take a long step forward.",
+   "Lower until your back knee lightly touches or hovers just above the floor, with your front shin close to upright.",
+   "Keep your chest up and your front knee in line with your toes.",
+   "Push through your front foot and bring your back foot forward straight into the next step.",
+   "Keep alternating legs as you walk forward for the set distance."
+  ],
+  "instructions_ar": [
+   "شيل الساند باج على كتفك ورا رقبتك وثبّته بإيديك الاتنين.",
+   "اقف مفرود وشد بطنك وخد خطوة طويلة لقدام.",
+   "انزل لحد ما ركبتك اللي ورا تلمس الأرض بالراحة أو تبقى فوقها بشوية، وقصبة رجلك اللي قدام قريبة من إنها تبقى عمودية.",
+   "خلي صدرك لفوق وركبتك اللي قدام على خط صوابع رجلك.",
+   "ازق برجلك اللي قدام وهات الرجل اللي ورا لقدام على طول في الخطوة اللي بعدها.",
+   "فضل بدّل الرجلين وانت ماشي لقدام للمسافة المطلوبة."
+  ],
+  "animation": "animations/pulse-0010.webp",
+  "figure": "figures/pulse-0010.json"
  }
 ]
